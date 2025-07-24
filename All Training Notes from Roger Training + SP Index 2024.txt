@@ -1,0 +1,1756 @@
+Of course. Here is the first section, "Part 1: Core Company Processes & Workflow," rebuilt from the ground up to include every detail from the source material, formatted as a comprehensive training resource.
+________________
+
+
+Part 1: Core Company Processes & Workflow
+This section outlines the foundational structure of our project management system. Mastering this workflow is essential for ensuring consistency, accuracy, and efficiency from the first client contact to the final invoice.
+1.1 Project Lifecycle & Status Management
+A. Overall Project Flow
+The lifecycle of every new project follows a standard progression. Understanding these phases is the first step to managing a job file correctly.
+* The Five Core Stages:
+   1. New Lead: The initial intake of a potential job.
+   2. Estimate Creation: Scoping the work and preparing a formal estimate.
+   3. Customer Approval: Securing signed paperwork and formal agreement to proceed.
+   4. Production: The active work phase on-site.
+   5. Billing & Close-Out: Finalizing invoices and completing the job file audit (JFA).
+* B. The ClickUp Status Pipeline
+Our project management software, ClickUp, uses a specific status pipeline to track a job's progress. Moving a job from one status to the next often triggers automations, so it is critical to only change a status when a job has officially met all criteria for the next phase.
+* Standard Workflow Statuses:
+   * New Lead: A new job has been received and entered into the system.
+   * Hot Lead: An estimate has been sent to the customer, and we are awaiting their signed approval.
+   * Secured Lead: The customer has signed the required paperwork, and the job is ready to be scheduled for production.
+      * CRITICAL RULE: Use Secured Lead for jobs where the team is actively working, but no equipment (dehumidifiers, air scrubbers, etc.) has been deployed on-site.
+   *    * Secured Production: The team is actively working on-site, AND there is equipment present.
+      * CRITICAL RULE: This status is to be used ONLY when equipment is physically on-site. It is our primary indicator for tracking jobs that require equipment monitoring and eventual pickup.
+   *    * Billing: All on-site work is complete, equipment has been removed, and the job is ready for final invoicing.
+   * JFA & Close Out: The final invoice has been sent, and the job file is undergoing a final audit to ensure all documentation is present and correct before being archived.
+   * Closed: The project is 100% complete, payment has been received, and the audit is finished.
+* * Specialized & Off-Ramp Statuses:
+   * Wildfire (WF) Statuses: For specialized leads received from the corporate storm system, unique statuses are used (e.g., WF New, WF Inspected, WF Approved & R2Work).
+   * Dead Lead: The customer has declined to move forward, and no work was performed.
+   * Cancelled: Work may have started, but the stakeholder (customer or insurance) has cancelled the job. This status removes the job from the active Work-In-Progress (WIP) dashboard.
+   * Not Sold: No production work was performed, and the Work Authorization form was not signed. This also removes the job from the WIP dashboard.
+* 1.2 The Four Pillars: Pre-Work Requirements
+Before any significant work can begin on a project (moving it into a "Secured" status), four critical pillars must be satisfied. Failure to confirm these items exposes the company to legal, financial, and compliance risks.
+1. Signed Paperwork (Contracts & Authorizations)
+   * What it is: All necessary documents (e.g., Work Authorization, Direction of Payment) must be reviewed, signed by the client, and filed correctly.
+   * Why it's critical: This legally protects the company and ensures the client has formally agreed to the scope of work and payment terms. We cannot proceed without it.
+2. 3. Insurance Coverage & Scope Approval
+   * What it is: Direct confirmation from the insurance adjuster that the loss is covered and that our proposed scope of work is approved.
+   * Why it's critical:
+      * An "assignment" from an adjuster guarantees direct payment from the insurance carrier to us, minimizing collection risks.
+      * Working without approval can lead to uncovered services and denied payments.
+      * Adjusters have specific requirements and bulletins that must be followed (e.g., pre-approval for mold remediation or extended equipment usage). Vague approvals require specific follow-ups in writing to confirm the exact scope.
+   * 4. 5. Compliance Checks (Asbestos & Lead)
+   * What it is: Verifying the need for and status of asbestos and lead testing based on the property's age and location.
+   * Why it's critical: Strict regulations are in place to protect workers and occupants. Non-compliance can lead to massive fines and work stoppages.
+   * Testing Requirements:
+      * Properties built before 1981: Higher likelihood of asbestos.
+      * Properties built before 1978: Higher likelihood of lead-based paint.
+      * Los Angeles (AQMD Regulation): Testing is required on virtually every insurance job, regardless of the property's age, due to air quality regulations.
+      * Insurance Mandates: Even on newer properties, the insurance carrier may require clearance before approving demolition.
+      * Exception: Testing may sometimes be skipped on properties built after 1980 if there is no insurance involvement and the job is outside a strict regulatory zone like AQMD. When in doubt, test.
+   * 6. 7. Payment Confirmation
+   * What it is: Ensuring payment arrangements have been confirmed.
+   * Why it's critical: We must have a clear path to payment before committing significant resources.
+   * Confirmation can be in the form of:
+      * An insurance assignment confirming direct payment.
+      * Confirmation of how the customer will pay (e.g., deposit, direct payment arrangement).
+      * Confirmation that insurance coverage is sufficient to satisfy the payment.
+   * 8. 1.3 Logged Production & Daily Oversight
+This is our daily quality control and documentation verification process. It ensures that for every day a technician visits a job, the work is documented correctly to support billing, compliance, and communication.
+* Purpose:
+   1. To audit and verify all work performed on-site.
+   2. To ensure photos and notes align to justify billing line items.
+   3. To capture any scope changes, issues, or necessary approvals in real-time.
+   4. To provide timely and accurate updates to customers and insurance carriers.
+* * Step-by-Step Daily Procedure (to be completed for the previous day's visits):
+   1. Confirm Visits via Hubstaff: Review the Hubstaff report to identify which jobs were visited. A visit is only logged if a technician was on-site for at least 15 minutes. Do not log drive-bys or short stops.
+   2. Check Photo Uploads:
+      * SiteCam: Verify that daily photos were uploaded. Use the date filter in SiteCam to confirm photos exist for the specific visit date.
+      * DocuSketch: Confirm that a 3D scan was uploaded for the first and last visit of the project.
+   3.    4. Review Scope Notes:
+      * Open the "Scope and Prod Notes" subtask in ClickUp.
+      * Confirm the technician entered detailed notes under the correct date.
+      * Cross-Reference: Compare the notes against the photos. Example: If photos show a containment barrier, the notes must mention it.
+      * Add Office Notes: If you identify missing details from the photos that are not in the technician's notes, add an "Office Note" below theirs to capture the missing items for billing purposes.
+   5.    6. Update the Customer:
+      * Send a progress update to the customer via their preferred method (text, email, or call).
+      * The goal is to overcommunicate. Inform them of what was done, what the next steps are, and address any potential concerns or timeline changes. This should happen after each visit.
+   7.    8. Update the Insurance / Job Progress:
+      * Xactanalysis: If it is an insurance project, send a concise summary of progress, findings, and next steps via Xactanalysis. This is the priority method for insurance communication.
+      * WorkCenter: For corporate jobs, update the "Project Snapshot" with the correct dates (e.g., "Site Inspected").
+      * Request Approvals: If the work requires approval per insurance bulletins (e.g., equipment needed beyond 3 days, discovery of mold, cabinet removal), request it promptly with supporting photos and notes.
+   9. * 1.4 Job File Audit (JFA) Process
+The JFA is the final quality control checkpoint before a job is officially closed. Its purpose is to ensure the file is 100% complete, accurate, and defensible in case of a future dispute.
+* Timing: This process begins when a job is moved to the JFA & Close Out status in ClickUp, which automatically triggers a "Job File Audit" subtask.
+* JFA Verification Checklist:
+   * [ ] Signed Documents: Confirm all required documents are signed and uploaded, especially the Certificate of Satisfaction (COS) and the initial Work Authorization.
+   * [ ] Compliance Reports: Verify that asbestos and/or lead testing reports are in the file if applicable.
+   * [ ] Final Photos: Ensure all relevant photos from SiteCam and DocuSketch are organized and present to support the work performed.
+   * [ ] Scope & Notes: Confirm all technician and office notes are complete and align with the final scope of work.
+   * [ ] Final Invoice: The final invoice must match the documented and approved scope of work.
+   * [ ] Payment Status: Verify the final payment status.
+* * Critical Rules for JFA:
+   * The ClickUp accounting file is the single source of truth for payment status. Always verify payment there.
+   * Partial payment does not equal project completion. A file cannot be closed if there is an outstanding balance or if any audit items remain unresolved. The status must remain open.
+* Of course. Here is the second section, "Part 2: Key Responsibilities & Role Expectations," meticulously reconstructed to serve as a detailed and comprehensive resource for all future company training.
+________________
+
+
+Part 2: Key Responsibilities & Role Expectations
+This section defines the core responsibilities, performance standards, and professional conduct expected of team members in office and administrative roles. These guidelines are designed to create a culture of accountability, proactivity, and excellence. Adherence to these standards is not optional; it is the foundation of our team's success.
+2.1 Non-Negotiable Expectations (The Foundation)
+These five principles are the bedrock of professional conduct within our company. They are considered non-negotiable for every team member, effective immediately and at all times.
+1. Communication: Maintain open, respectful, and non-defensive communication at all times.
+2. Demeanor: Demonstrate a consistent, positive, and team-focused demeanor.
+3. Ownership: Take independent ownership of all assigned tasks and processes.
+4. Performance Alignment: Fully align your performance with the expectations of your compensation and role level (e.g., exempt-level).
+5. Accountability: Exhibit a high sense of urgency, meticulous attention to detail, and unwavering accountability in all work.
+2.2 Understanding Performance Gaps: Key Areas for Professional Growth
+To foster a high-performance culture, it's crucial to understand common pitfalls that can hinder success. The following areas, identified from past performance reviews, serve as a guide for what to avoid and where to focus your professional development.
+* Defensiveness and Resistance to Feedback:
+   * Avoid becoming argumentative or resistant during feedback sessions.
+   * Be mindful of dismissive nonverbal cues (e.g., crossed arms, lack of eye contact, eye-rolling).
+   * Remain engaged during critical discussions; behaviors like laughing or eating are inappropriate.
+   * Focus on taking ownership of feedback rather than justifying actions or mistakes.
+* * Lack of Proactivity and Initiative:
+   * Do not rely on step-by-step instructions. Strive to initiate and complete tasks independently.
+   * Actively use available documentation, past examples, and learned processes to solve problems and learn from mistakes.
+   * Develop a personal system for tracking and reinforcing learned processes to avoid repeated coaching on the same items.
+* * Emotional Reactivity and Impact on Team Morale:
+   * Be mindful of your mood and energy, as negativity requires emotional labor from management and colleagues.
+   * Avoid creating a dynamic that causes discomfort for other team members or negatively impacts morale.
+   * Actively foster positive engagement and professional collaboration in all team environments.
+* * Misalignment with Role & Compensation Expectations:
+   * Consistently demonstrate the performance and professionalism that aligns with your compensation level (e.g., approx. $35/hr).
+   * Actively work to close knowledge gaps in your responsibilities. An exempt-level role requires a high degree of ownership and expertise.
+* * Task Ownership and Follow-Through:
+   * Develop systems to avoid the need for reminders on basic or recurring tasks.
+   * Demonstrate consistent follow-through to build confidence and allow management to delegate effectively.
+   * Maintain a high sense of urgency, autonomy, and process ownership from start to finish.
+* 2.3 Key Responsibilities & Performance Criteria (The "What")
+This is a detailed breakdown of the primary duties for office roles and the specific standards by which performance will be measured.
+* Production Calls & Notes:
+   * Performance Criteria: Actively participate in and fully understand the purpose of production calls. Accurately record notes in the correct system and location, ensuring scope notes reflect all key job details and outcomes. Consistently use provided tools and processes to streamline this work.
+* * Drybooks Job Setup & Progress:
+   * Performance Criteria: Set up all new jobs accurately in Drybooks. Progress jobs through their various stages using updated information from scope notes.
+* * Production Oversight:
+   * Performance Criteria: Perform daily/weekly reviews of job photos and scope documentation. Confirm the completeness and accuracy of all job files. Communicate job progress updates to clients and insurance carriers on time.
+* * Xactimate File Management & Billing:
+   * Performance Criteria: Set up Xactimate files properly for every job. Complete and attach all necessary documentation (docs, photos). All estimates must be audit-ready without requiring supervisor revision.
+* * File Uploads for Audit:
+   * Performance Criteria: Upload all files, photos, and documents in the standardized format and correct folder structure. Maintain complete and clean documentation for both internal and external audit readiness.
+* * Office Maintenance & Responsibilities:
+   * Performance Criteria: Complete office open/close procedures as scheduled. Consistently keep all office spaces clean, organized, and stocked.
+* * Communication Responsibilities (Clients, Vendors, Carriers):
+   * Performance Criteria: Manage all communication professionally. Respond to messages and emails promptly and appropriately. Maintain clarity and relevance in all interactions.
+* * Follow-Up Communication:
+   * Performance Criteria: Acknowledge all task assignments immediately. Follow up consistently on all pending items. Ensure no communication is ever left unresolved or ignored.
+* 2.4 Specific Role Definitions
+While responsibilities may overlap, certain roles have a primary focus.
+* File Coordinator - 4 Primary Roles:
+   * Job File Coordination: Actively manage and move job files through the project lifecycle.
+   * Job File Documentation: Ensure all necessary documents, notes, and photos are present and accurate.
+   * Review & Validation: Validate initial field documentation against our standards.
+   * Estimating: Create preliminary estimates based on field documentation.
+* * Office Manager - Key Responsibilities:
+   * Team Management: Manage the office team, including the receptionist/dispatcher, job file coordinator, and accounting/HR administrator. Coordinate and maintain the company calendar and facilitate franchise-wide communication.
+   * Financial Analysis & Compliance: Manage accounts payable/receivable, analyze financial reports, and monitor compliance and risk management.
+   * Human Resources: Oversee compensation plans, training and development plans, and performance management documentation.
+   * Annual Planning: Develop and document the office division's annual plan and oversee its performance.
+* 2.5 Performance Goals & Evaluation
+Consistent, sustainable improvement is expected in all areas outlined above. Performance will be evaluated against the following goals.
+* Goals for Excellent Performance:
+   * Accepting feedback calmly and applying it accurately and immediately.
+   * Taking initiative to complete tasks without needing reminders.
+   * Continuously increasing accuracy, accountability, and communication clarity.
+   * Reducing rework, errors, or delays caused by inattention or disengagement.
+   * Showing a proactive attitude and professional collaboration daily.
+   * Ensuring mindfulness about reactions, responses, and personal actions at all times.
+* * Consequences of Not Meeting Expectations:
+   * Failure to demonstrate clear and consistent improvement in the outlined areas is a serious performance issue.
+   * Potential consequences may include, but are not limited to:
+      * An extension of a Performance Improvement Plan (PIP).
+      * Reassignment to a more junior role (if available and appropriate).
+      * Termination of employment.
+   * * Of course. Here is the third section, "Part 3: Professional Skills Development," formatted as a detailed playbook for company-wide training, ensuring every point and example from the original notes is included.
+________________
+
+
+Part 3: Professional Skills Development
+Technical proficiency and knowledge of our processes are essential, but they are only part of what defines a high-performing team member. Professional skills—the habits, mindsets, and behaviors you demonstrate daily—are what translate technical ability into consistent, reliable results. This section serves as a practical guide to the ten core professional skills we expect every team member to cultivate and master.
+________________
+
+
+3.1 Sense of Urgency
+* Definition:
+   * Proactively moving through the day with intention, speed, and responsiveness. Staying consistently engaged and attentive to tasks, new requests, and shifting priorities without delays or reminders.
+* * What It Looks Like:
+   * Quickly acknowledging requests or emails with brief, timely replies.
+   * Following up proactively to confirm tasks are progressing.
+   * Utilizing downtime to handle quick tasks or check the status of ongoing assignments.
+   * Staying attentive and responding rapidly when unexpected issues or needs arise.
+* * How to Improve:
+   * Practice immediate responses, even if it’s just to acknowledge receipt of a message ("Got it," "Will look into this").
+   * Periodically ask yourself, "What is the most urgent priority right now?" and shift your focus accordingly.
+   * Keep visible reminders or checklists of daily priorities and adjust them as tasks evolve throughout the day.
+* ________________
+
+
+3.2 Accuracy
+* Definition:
+   * Ensuring every task, email, and communication is error-free, reliable, and precise, showing meticulous attention to detail and consistency.
+* * What It Looks Like:
+   * Double-checking work and reports before submission.
+   * Reviewing all communications carefully for typos or incorrect information before sending.
+   * Confirming details or unclear instructions with a clarifying question rather than making an assumption.
+* * How to Improve:
+   * Take a brief pause before finalizing any task to quickly verify all details.
+   * Create personal checklists or quick reference guides to catch common mistakes you tend to make.
+   * Set a personal rule: review every message or document twice before sending it.
+* ________________
+
+
+3.3 Time Management
+* Definition:
+   * Effectively scheduling and controlling your workday to maximize productivity, meet deadlines, and complete essential tasks efficiently.
+* * What It Looks Like:
+   * Clearly scheduling blocks of time for important or deep-focus tasks.
+   * Regularly reassessing priorities throughout the day to ensure deadlines are met.
+   * Not allowing distractions or low-priority tasks to consume productive hours.
+* * How to Improve:
+   * Start each day with a clear, prioritized to-do list.
+   * Set timed intervals (e.g., using the Pomodoro Technique) for specific tasks to prevent drifting or losing focus.
+   * Regularly check your progress midway through the day to adjust your focus if necessary.
+* ________________
+
+
+3.4 Rapid Micro-Communication
+* Definition:
+   * Consistently providing brief, prompt communications that let others know you have received their message and are actively working on it. This builds confidence and eliminates ambiguity.
+* * What It Looks Like:
+   * Quickly replying with simple acknowledgments ("Got it, will update shortly," "Checking now," "Working on it").
+   * Using short, clear messages to update status or clarify next steps.
+   * Never leaving messages unanswered for longer than is absolutely necessary.
+* * How to Improve:
+   * Set notifications to check messages regularly at predictable intervals.
+   * Use short, pre-prepared phrases for swift replies.
+   * Build the habit of immediate acknowledgment, even if you don't have the full answer yet.
+* ________________
+
+
+3.5 Critical Thinking (Proposal-First Approach)
+* Definition:
+   * Independently analyzing situations, anticipating needs, and proactively presenting potential solutions before seeking further input. This demonstrates ownership and problem-solving skills.
+* * What It Looks Like:
+   * Proposing solutions rather than waiting for instructions (e.g., "I suggest we do X, does that work?").
+   * Anticipating potential problems and preparing alternative approaches in advance.
+   * Showing initiative rather than waiting passively for direction.
+* * How to Improve:
+   * Before asking a question, always brainstorm at least one potential solution to propose.
+   * Regularly challenge yourself by thinking, "What would I do if I couldn't ask anyone for the answer?"
+   * Practice presenting your thoughts concisely, clearly, and confidently.
+* ________________
+
+
+3.6 Professional Demeanor
+* Definition:
+   * Demonstrating calm, respectful, confident body language and communication consistently, especially during moments of stress, challenges, or when receiving feedback.
+* * What It Looks Like:
+   * Maintaining steady eye contact, open posture, and a respectful tone, even when being criticized.
+   * Avoiding defensive or dismissive body language, such as eye-rolling or crossed arms.
+   * Staying composed and respectful in both casual and stressful interactions.
+* * How to Improve:
+   * Practice maintaining your composure during challenging conversations.
+   * Actively listen before responding to ensure your reply is thoughtful and not reactive.
+   * Regularly self-assess your tone and body language after interactions to identify areas for improvement.
+* ________________
+
+
+3.7 Concise & Intentional Communication
+* Definition:
+   * Communicating updates clearly, simply, and briefly—providing exactly the right amount of information without unnecessary or irrelevant details.
+* * What It Looks Like:
+   * Using short, clear bullet points or messages that directly answer the key questions.
+   * Avoiding overly wordy responses or including information that is not relevant to the matter.
+   * Writing updates that are logical and can be quickly understood at a first glance.
+* * How to Improve:
+   * Before sending an update, review it quickly and ask: "Can this be shorter? Is it clear? Does it address the key issue appropriately?"
+   * Structure your updates in a simple format: "Done, Next, and Issues." (What did we do, what do we need to do next, and what are the blockers?).
+   * Eliminate words or phrases that don't directly add value.
+* ________________
+
+
+3.8 Documentation Discipline
+* Definition:
+   * Creating and consistently organizing records, files, or information so clearly that any team member can easily find and understand them without assistance.
+* * What It Looks Like:
+   * Using clearly named files, folders, and consistent organization patterns.
+   * Taking notes and immediately saving them in the correct, accessible location.
+   * Regularly reviewing documentation for completeness and ease of access.
+* * How to Improve:
+   * Schedule 5-10 minutes of dedicated time daily solely for organizing and naming files.
+   * Implement and consistently use simple naming conventions (e.g., "Date_Client_Task").
+   * Immediately save all documents and information as soon as they are created or received.
+* ________________
+
+
+3.9 Ownership and Follow-Through
+* Definition:
+   * Taking full responsibility for assigned tasks from start to finish, ensuring their completion without needing constant reminders or supervision.
+* * What It Looks Like:
+   * Proactively tracking your own task statuses and deadlines using personal tools.
+   * Checking in frequently on tasks and updating stakeholders before being asked.
+   * Clearly communicating when tasks are completed or if they require further support.
+* * How to Improve:
+   * Use personal task-tracking tools (like checklists or apps) to keep visibility and reminders handy.
+   * Set aside dedicated time at the end of each day to review your task list and confirm completion.
+   * Take pride in owning your responsibilities fully, which includes proactively communicating any delays or issues.
+* ________________
+
+
+3.10 Constructive Feedback Loop
+* Definition:
+   * Regularly and openly accepting, understanding, and rapidly applying feedback to continuously improve performance. This demonstrates a commitment to growth.
+* * What It Looks Like:
+   * Asking for specific feedback proactively rather than waiting for formal performance reviews.
+   * Clearly demonstrating an effort to incorporate feedback into immediate action steps.
+   * Showing visible and measurable improvement in areas where you have previously received feedback.
+* * How to Improve:
+   * Document key feedback points you receive and review them weekly.
+   * Set small, measurable goals based on that feedback (e.g., "This week, I will respond to all messages within 10 minutes").
+   * Request periodic check-ins on specific areas to confirm that your improvements are visible and effective.
+* Of course. Here is the fourth section, "Part 4: Technical Procedures & Software Guides," rebuilt with an exhaustive level of detail to serve as a definitive training resource for the company.
+________________
+
+
+Part 4: Technical Procedures & Software Guides
+This section provides a detailed guide to the specific technical procedures and software platforms that form the backbone of our daily operations. A precise and consistent application of these processes is mandatory for maintaining compliance, ensuring accurate billing, and delivering excellent service.
+________________
+
+
+4.1 Production Calls: The Core of Information Gathering
+* Primary Purpose:
+   * To methodically identify any unusual, non-standard, or undocumented events on a job site. The goal is to update the project scope in real-time and ensure everything is documented in writing to protect the company and justify billing.
+* * Key Items to Identify ("Unusual or Odd Items"):
+   * Fire: Any signs of soot, smoke, or charring not previously noted.
+   * Water: Any new or previously undocumented moisture intrusion or water damage.
+   * Mold: Any visible discoloration or odors that could indicate microbial growth. This is critical, as mold often requires a scope change and specific protocols.
+   * Other Jobs: Discovery of concurrent or overlapping damage from other events or contractors.
+* * Information to Capture During Calls:
+   * Billing Items: Actively listen for details that translate into billable line items in Xactimate (e.g., content manipulation, containment barriers, specialized equipment).
+   * Compliance Data: Note any information relevant to insurance carrier bulletins or local regulations.
+   * Risk & Deviations: Document any deviations from our standard operating procedures, especially those requested by the client, as this manages liability. Example: "Client requested we not remove the water-damaged baseboards to save them; we advised against this due to potential for hidden mold."
+   * Daily Action Log: The notes must serve as a legal record of all actions and tasks completed on a specific day, in case of future disputes.
+* * Where Do Notes Go?
+   * Technician scope notes are to be transferred manually into the "Scope and Prod Notes" subtask in the corresponding ClickUp job file.
+* ________________
+
+
+4.2 Dry Reports & Drybooks: The Standard for Water Jobs
+* Mandatory Requirement:
+   * A Dry Report must be created and updated daily for EVERY water damage job. This is a non-negotiable requirement for insurance compliance and proper documentation.
+* * Purpose:
+   * To provide a detailed, day-by-day summary of the drying process, proving to insurance carriers that IICRC S500 standards were followed.
+   * To track moisture levels and justify equipment usage and duration.
+   * To prevent errors and payment denials from insurance carriers.
+* * Setting Up the Report (in Excel/Sheets before WorkCenter Entry):
+   * Identify Wet Materials: List every affected material (e.g., drywall, insulation, subfloor, tile).
+   * Assign to Zones: Group materials by room or drying zone. A "zone" is a distinct area that doesn't share airspace with another.
+   * Use Clear Naming: Be specific (e.g., "Living Room - West Wall").
+   * Log Daily Progress: The report must answer three critical questions for each material:
+      * When was it wet? (Initial reading)
+      * When was it dry? (When it met the drying goal)
+      * If it didn't dry, when did you remove it? (Date of demolition)
+   * * * Data Entry into WorkCenter/Drybook:
+   * Initial Setup: Transfer data from the Excel sheet. Update the "Site Inspected" date to reflect the first visit. Add all rooms and edit damage percentages.
+   * Equipment (Validation Tab):
+      * Log all equipment placed on Day 1. Use correct descriptions (e.g., "Centrifugal Air Mover").
+      * Equipment added after Day 1 is logged in the "Monitoring" tab.
+   *    * Monitoring Tab (Daily Updates):
+      * Material Readings: Input daily readings. The drying goal is always 10.
+      * Atmospheric Readings: Input daily humidity and temperature readings.
+   *    * Finalization: Create a PDF of the report to catch any mistakes before submission.
+* * Common Mistakes to Avoid:
+   * Forgetting to mark a material as "removed" in the report after demolition.
+   * Failing to add newly exposed materials (e.g., subfloor after tile is removed).
+   * Using incorrect removal dates or having missing dates in the log.
+* ________________
+
+
+4.3 Xactimate & Estimating: The Language of Insurance Billing
+* Function:
+   1. Xactimate is the industry-standard software used to build itemized estimates for insurance claims. Our estimates must be created in this platform to be considered valid by carriers.
+* * The Estimating Process:
+   1. Estimate Type: The approach depends on the insurance carrier.
+      * Per Item: Most carriers require an itemized count of every task (e.g., "remove 50 sq ft of drywall," "paint 100 sq ft of ceiling").
+      * Per SQFT: Some carriers, like Mercury, may use a square-foot pricing model for certain events like wildfires.
+   2.    3. Preliminary Broad-Scope Estimates: To expedite the initial review process, we often start with a broad-scope estimate that includes most possible items. This is then refined based on adjuster and customer feedback.
+   4. Documentation is Mandatory: ALL photos and supporting media must be attached to the estimate to justify every single line item.
+   5. Finalizing and Sending:
+      * ESX Files: These are the native Xactimate files containing the sketch and all line items. Send these strategically, as adjusters can easily manipulate them.
+      * PDF Files: Finalized bills should always be sent in PDF format to maintain the integrity of our billing and prevent unauthorized changes.
+   6. * ________________
+
+
+4.4 Core Software & Platform Guide
+* ClickUp:
+   * Function: Our central project management hub. It is the single source of truth for all project details, tasks, internal communication, and workflow automation.
+   * Usage: All job information, notes, subtasks, statuses, and custom fields (like insurance data) are housed here.
+* * Google Drive:
+   * Function: Primary cloud storage for all job-related media.
+   * Usage: Used to store, organize, and share photos, videos, and large documents. Folders are auto-created, but file uploads are manual.
+* * TechJoint:
+   * Function: Our Customer Relationship Management (CRM) system and phone/texting platform.
+   * Usage: Logs all inbound/outbound calls and text messages with customers. Used for customer service-oriented communication.
+* * Xactanalysis:
+   * Function: A direct communication portal with insurance adjusters for specific carriers.
+   * Usage: This is the priority method for sending updates, notes, and documents to insurance. It creates a timestamped log of all communication.
+* * WorkCenter & ServproNet:
+   * Function: SERVPRO's corporate portals for job management and compliance.
+   * Usage: We must update job progression and key dates (in the "Project Snapshot") daily for any jobs received from corporate to remain compliant and eligible for new leads.
+* * SiteCam & DocuSketch:
+   * Function: Photo documentation platforms.
+   * SiteCam: Used for daily progress photos (e.g., demolition, equipment placement).
+   * DocuSketch: Used for creating 3D walkthroughs, typically only on the first and last visit to capture the overall layout and final condition.
+* * Hubstaff:
+   * Function: Time and location tracking software for our field technicians.
+   * Usage: It verifies when technicians arrive at job sites and for how long, providing the data needed for the daily "Logged Production" review.
+* ________________
+
+
+4.5 Job-Specific Equipment: Using the Right Tools
+Knowing which equipment to use for each job type is crucial for both effectiveness and proper billing.
+* Water Damage:
+   * Dehumidifiers (Dehus): To extract moisture from the air.
+   * Air Movers (Fans): To accelerate evaporation from wet surfaces.
+   * Air Scrubbers (AFDs - Air Filtration Devices): Used only if the water is contaminated (Category 2 or 3) to filter harmful particles.
+* * Mold Remediation:
+   * Air Scrubbers (AFDs): The primary piece of equipment to capture airborne mold spores.
+   * Negative Air Setups: Used within containment to create negative pressure, preventing spores from escaping.
+   * CRITICAL RULE: NEVER use Air Movers (fans) on a mold job, as they will spread spores and contaminate other areas.
+* * Fire Damage:
+   * Air Scrubbers (AFDs): Used to filter soot, smoke, and other particulates from the air.
+   * HEPA Vacuums: Used in the cleaning process.
+   * Hydroxyl Generators: Often used for odor control.
+* * Odor Control:
+   * Ozone Machines: Highly effective but hazardous. The property must be vacant during use as ozone displaces oxygen.
+   * Hydroxyl Generators: A safer alternative that neutralizes odors without requiring evacuation. Safe for people, pets, and plants.
+* Of course. Here is the fifth section, "Part 5: Communication Protocols & Templates," fully detailed and structured to serve as a comprehensive guide for company-wide training.
+________________
+
+
+Part 5: Communication Protocols & Templates
+Effective, professional, and consistent communication is a non-negotiable cornerstone of our company. It builds trust with clients, ensures compliance with insurance carriers, and promotes seamless collaboration within our team. This section provides the standards, protocols, and templates that must be followed in all interactions.
+________________
+
+
+5.1 General Communication Principles: The "How"
+1. Overcommunicate: The guiding principle is to overcommunicate. It is always better to provide too much information than not enough. This keeps clients and insurance informed, manages expectations, and helps capture issues before they become major problems.
+2. Acknowledge and Respond Immediately:
+   * Rule: No communication should ever be left unanswered or ignored.
+   * Protocol: If you do not have an immediate answer to a question, send a prompt acknowledgment.
+   * Examples: "Got it, I will look into this and get back to you shortly," or "Thanks for letting us know. We are reviewing this now."
+3. 4. Maintain a Professional Tone:
+   * Client-Facing: Always maintain a compassionate, empathetic, yet professional tone. Acknowledge the client's stress while projecting confidence and control.
+   * Internal: Communications with team members must be respectful, clear, and focused on solutions.
+5. 6. The 1-4-8 Rule (for New Leads): This is SERVPRO's national standard for response times and is a key performance metric.
+   * 1 Hour: You must make initial contact with the customer within one hour of receiving the lead.
+   * 4 Hours: You must be on-site at the customer's property within four hours of receiving the lead.
+   * 8 Hours: You must provide an initial briefing to the insurance carrier within eight hours of the first contact.
+7. ________________
+
+
+5.2 Customer Communication: Building Trust and Clarity
+* Primary Goal: To keep the customer informed at every stage, manage their expectations, and ensure they feel supported throughout a stressful process.
+* Daily Updates:
+   * What: Send a daily update to the customer for any job that is in "Secured Production."
+   * Content: The update should detail 1) What was done today, and 2) What the next steps are.
+   * Method: Use the customer's preferred communication method (email, text, or call). Ask for their preference early in the process.
+* * Key Communication Tactics:
+   * Open with Empathy: Always start conversations or emails by acknowledging the customer's situation. Example: "I know this is a stressful process, and we are here to help you through it."
+   * Define Terms Clearly: Avoid industry jargon. If you must use a technical term, explain it simply. Example: "The 'scope of work' is simply our detailed plan of everything we need to do to restore your home."
+   * Be Clear About Preliminary vs. Final: Use words like "preliminary," "initial," or "draft" when discussing estimates that may change. This manages expectations.
+   * End with Clear Next Steps: Never end a conversation or email without defining what will happen next. Example: "The next step is for me to send this to your adjuster for approval. I will follow up with you as soon as I hear back."
+* * Phone Script for First Notice of Loss (FNOL): This script provides the structure for a professional and effective initial call.
+   * Greeting: "Thank you for calling SERVPRO®, this is [Your Name]. How can I assist you today?"
+   * Acknowledge & Empathize: "I’m so sorry you’re dealing with this. We understand how stressful it can be, and we’re here to help."
+   * Gather Key Information: Systematically collect the following:
+      * First and Last Name
+      * Best Contact Phone Number
+      * Full Address of the affected property
+      * Best Email Address
+      * Type and cause of loss (briefly)
+      * Insurance information (if available)
+   *    * Reassure & Outline Next Steps: "SERVPRO® specializes in [water/fire/mold] restoration. The next step is to set up your file and schedule an inspection. I will send you a text with our contact details right after this call."
+   * Closing: "We appreciate your call. You’re in good hands with SERVPRO®. We’ll be in touch shortly to finalize the inspection time."
+* ________________
+
+
+5.3 Insurance Communication: Precision and Compliance
+* Primary Goal: To provide insurance adjusters with the precise, timely, and well-documented information they need to approve our work and pay our invoices without dispute.
+* Priority Communication Channel:
+   * Xactanalysis: This is the primary and preferred method for all communication with insurance adjusters. It creates an official, timestamped record that can be referenced in case of any disputes.
+* * Email Communication (When Xactanalysis is not an option):
+   * Mercury Standard Format: When emailing Mercury insurance, the subject line must follow this format to be processed correctly: Claim #, Insured Name, Type of Loss.
+* * Content of Updates:
+   * Be Concise and Factual: Provide a brief summary of progress, any new findings (e.g., discovery of mold), and the next steps.
+   * Request Approvals Promptly: Do not wait. If a task requires pre-approval per the carrier's bulletin (e.g., equipment needed for more than 3 days, non-essential demolition), submit the request immediately via Xactanalysis with supporting photos and scope notes attached.
+   * Follow Up Systematically: If an adjuster is unresponsive to notes in Xactanalysis after a reasonable time, the next step is a direct phone call. Document the call (time, date, who you spoke with, outcome) in Xactanalysis afterward.
+* ________________
+
+
+5.4 Internal Communication: Efficiency and Alignment
+* Primary Goal: To ensure the entire team is aligned, tasks are clearly understood, and information flows efficiently between the office and the field.
+* Communication Channels:
+   * ClickUp: The primary tool for all internal communication related to jobs. Use comments for updates, assign tasks for action items, and use the description for permanent notes.
+   * Google Voice: The designated platform for group text messages with technicians.
+      * Rule: When texting technicians about a job, the group must include Jordan and Mona to ensure management is always in the loop.
+   * * * Content and Tone:
+   * Be Direct and to the Point: Internal communication should be efficient. Avoid ambiguity.
+   * Be Specific: When requesting updates or action from technicians, be specific about what you need and for which job file.
+      * Poor Example: "Hey Peter, can you send me your updates?"
+      * Good Example: "Hi Peter, reviewing yesterday's Logged Production. For the Smith job (123 Main St), please upload the DocuSketch. For the Jones job (456 Oak Ave), I'm still missing your scope notes. Thanks."
+   * * Of course. Here is the sixth and final section, "Part 6: Training Resources & Onboarding," rebuilt to serve as a comprehensive and highly detailed guide for all future company training initiatives.
+________________
+
+
+Part 6: Training Resources & Onboarding
+A structured onboarding and continuous training program is essential for building a competent and confident team. This section outlines the plans, resources, and goals that guide the development of every team member, ensuring a consistent and high standard of performance across the company.
+________________
+
+
+6.1 Onboarding Plan & Performance Goals
+This structured plan outlines the expectations and key focus areas for a new team member's initial 30, 60, and 90 days.
+* 30-Day Expectations (The Foundational Period): The first month is focused on mastering core communication, file management, and foundational knowledge.
+   * Communication & File Management:
+      * Manage communication for a set number of active project files.
+      * Review each assigned file every morning for updates (via email, text, or call).
+      * Provide a status update to the customer or insurance at least every other day.
+   *    * Phone, Text & Email Proficiency:
+      * Handle incoming/outgoing calls for assigned projects confidently.
+      * Respond promptly to all texts and emails to ensure no delays in communication.
+      * Maintain a daily log of all communications and required follow-up actions.
+   *    * Training Module Completion:
+      * Complete all assigned Office Manager and/or File Coordinator LMS (Learning Management System) modules by the specified deadline (e.g., within the first 30 days).
+   *    * Time Management & Performance:
+      * Track daily tasks, file updates, and training progress in a log for review.
+      * Demonstrate effective time management by balancing assigned file communications with ongoing training.
+   *    * 30-Day Review Focus: The review will assess communication quality, productivity, resourcefulness, and overall understanding of the core workflow.
+* * 30/60/90-Day Duties (Progressive Responsibilities):
+   * Within 30 Days (Green Tasks - High Priority):
+      * Photos Management: Collaborate on reviewing, managing, and labeling photos. Learn what constitutes good vs. bad photos for each project type and how they are used to create billing. Establish a method for escalating photo-related issues.
+      * Customer Updates: Master sending daily updates and next-step communications to customers via email, text, or phone. Know how to draft messages, what to include/exclude, and ensure timely delivery.
+      * Scope Notes Management: Take responsibility for transferring technician scope notes into job descriptions. Review notes against job photos for accuracy and improve the quality of production calls by knowing what questions to ask to capture critical information for billing, compliance, and risk.
+      * Logged Production Oversight: Oversee daily technician logs, ensuring follow-up for missing photos and notes. Confirm Hubstaff is active and locations are properly added to visits.
+   *    * Within 90 Days (Blue Tasks - Advanced Skills):
+      * Drybook Assistance: Learn how to set up, create, send, and review Drybooks.
+      * Insurance Updates: Take ownership of sending project status updates to insurance companies.
+      * Xactimate: Begin building estimates and finalizing jobs in Xactimate.
+      * Audits and Bulletins: Learn to conduct job file audits and manage bulletin communications.
+      * AI Tools: Begin exploring AI agents (like N8N) and improving prompts to help with training, duties, and team development.
+   * * * Example Onboarding Schedule & Topics:
+   * Day 1 (2/05/2025):
+      * Software Introduction: Overview of ClickUp (main hub), Google Drive (media storage), TechJoint (CRM), Xactimate (estimates), and Insurance Portals.
+      * Project Process: Introduction to the lifecycle of a new project and the role of automation in communication.
+   *    * Day 2 (2/06/2025):
+      * Estimating: Learn the different ways to create estimates (per item vs. SQFT).
+      * Production Terminology: Introduction to "Secured Production," Production Logs, Hubstaff, Scope Notes, and Dry Reports.
+      * Daily Activities: Reviewing project statuses and ensuring technicians update notes daily.
+   *    * Subsequent Training Topics (Examples):
+      * Chemicals & Cleaning: Wall and All Surface Cleaner (351), Wall Rinse (353), Industrial Cleaner (357), Bright-N-Neutral Cleaner (408), Wintergreen Deodorizer (155F).
+      * Technical Knowledge: Understanding humidity measurement (outside vs. inside wet vs. inside dry), material readings, and the 48-72 hour window for mold growth.
+      * Equipment: The three main pieces of equipment are the Dehumidifier, Air Mover, and Air Scrubber (AFD - Air Filtration Device). Learn which are used for fire, water, and mold jobs.
+   * * ________________
+
+
+6.2 Resource Library: Links to Training Materials
+Our company maintains an extensive library of video tutorials (Loom) and standard operating procedure (SOP) documents. These resources are designed to provide step-by-step guidance on virtually every technical task.
+* Accessing Resources: All links are centralized in a "Helpful Resources, Links, and Notes" document in ClickUp, which serves as a living training manual.
+* Available Training Categories:
+   * Xactimate:
+      * How to create fire inspection invoices based on SQFT.
+      * How to create SQFT pricing for Mercury wildfire projects.
+      * How to add insulation removal for an attic.
+      * How to split an estimate between content cleaning and structural cleaning.
+      * How to bill for different types of mold using the correct codes.
+      * How to remove a deductible from an estimate.
+   *    * Xactanalysis:
+      * How to search for and review updates/notes sent to insurance.
+   *    * Audit Process (JFA):
+      * The complete Job File Audit (JFA) review process.
+      * How to upload a file to the WorkCenter QA for audit.
+      * How to clear "financials" requirements in the audit system.
+   *    * Dry Reports:
+      * How to create a Drying Report from scratch.
+      * A detailed Drybook training video with Jenelyn.
+      * How to add zones, rooms, readings, and equipment in WorkCenter.
+   *    * Email Help & Prompts:
+      * Templates and prompts for various customer and insurance emails.
+   *    * Customer & Call Handling:
+      * A presentation on call handling, including "Dos and Don'ts" during calls.
+   *    * Work Center & Hubstaff:
+      * How to add new leads to Work Center.
+      * SOPs for using Hubstaff.
+   *    * Photo Handling:
+      * Guides on managing and organizing project photos.
+   * * ________________
+
+
+6.3 Goal Setting & Self-Assessment
+Continuous improvement requires self-awareness and a commitment to personal growth. These tools are provided to help team members set meaningful goals and track their progress.
+* SMART Goals Framework: All personal development goals should be Specific, Measurable, Achievable, Relevant, and Time-bound.
+   * Example Goal for "Understanding Projects Better":
+      * S (Specific): Get better at updating photos and notes for Logged Production reviews.
+      * M (Measurable): Track the average completion time for a Logged Production review, aiming to reduce the time between a visit and full documentation, while also increasing the ability to resolve it independently.
+   * * * The "Baseball Card": A Tool for Self-Reflection and Goal Setting:
+   * This is a personal document to be reviewed and updated regularly with a manager.
+   * Section 1: Things You Can Count on Me for 100%:
+      * Identify tasks and responsibilities you handle with complete consistency (e.g., "Managing communication via calls and emails").
+   *    * Section 2: My Strengths:
+      * List your top three strengths and explain how they benefit the team (e.g., "Willingness to ask questions until I fully understand a process").
+   *    * Section 3: Things I Am Working on This Month (Priority):
+      * Define your top priority or goal for the current month (e.g., "Becoming better with communication with customers via emails and text").
+   *    * Section 4: Ongoing Things to Work On:
+      * Identify bigger-picture skills or habits you want to improve over time (e.g., "Becoming a better listener and a more independent problem-solver").
+   *    * Section 5: How I Can Better Support the Team:
+      * Propose ways you can contribute more to the team's success (e.g., "By becoming more efficient at 'managing up' and being low maintenance").
+   * * ________________
+
+
+Of course. Here is the detailed extraction for the final sections of the training material.
+IV. Company Standards & Values
+________________
+
+
+A. Core Identity & Guiding Principles
+* Mission: To develop a team of quality people who focus on excellent service, fairness, and mutual respect.
+* Vision: To be the premier cleaning and restoration company in the world.
+* Purpose: To help entrepreneurs succeed.
+* Five Core Values:
+   1. Believe in a dream.
+   2. Grow relationships.
+   3. Share the SERVPRO story.
+   4. Be financially frugal.
+   5. Follow the system.
+________________
+
+
+B. Key Performance & Service Standards
+* The 1-4-8 Service Response Guideline: A core company standard for response times.
+   * 1 Hour: Time allowed to contact the customer after receiving a new lead.
+   * 4 Hours: Time allowed to be on-site.
+   * 8 Hours: Time allowed to provide a briefing to the customer and/or insurance adjuster.
+* Key Performance Metrics (KPMs) & Compliance:
+   * Definition: KPMs are indicators of how well the franchise is performing in key areas (Client Focused, Marketing, Office, Production, Financial, etc.) using real-time data.
+   * APA / NAPA: The Account Participation Agreement outlines the business rules and job requirements that must be followed when providing service to an insurance or commercial client. It is monitored daily.
+   * Compliance Color-Coding:
+      * Green: All guidelines are fulfilled.
+      * Yellow: Guidelines are about to expire or a current job needs attention.
+      * Red: There is an IMMEDIATE issue that must be addressed to remain in compliance.
+* Customer Service Mission:
+   * Understand customer service as a strategic advantage, not just a function.
+   * Quick and effective problem-solving can turn negative experiences into positive customer loyalty.
+   * Strive for "Legendary Customer Service" by empowering employees, maintaining strong communication, and implementing customer feedback.
+   * Insight: Customer Service is the action; Customer Satisfaction is the outcome.
+________________
+
+
+V. Role-Specific Training & Development
+________________
+
+
+A. Performance Management Framework (PIP)
+* Summary of Performance Concerns (Example):
+   * Defensiveness and Resistance to Feedback: Being argumentative, dismissive nonverbal cues (crossed arms), disengaged behavior (laughing, eating during critical discussions).
+   * Lack of Proactivity: Reliance on step-by-step instructions, minimal use of available documentation to learn from mistakes.
+   * Emotional Reactivity: Negative mood creating discomfort for the team.
+   * Misalignment with Role Expectations: Performance not aligning with compensation level.
+   * Task Ownership and Follow-Through: Requiring frequent reminders for basic tasks.
+* Non-Negotiable Expectations for All Roles:
+   * Maintain open, respectful, and non-defensive communication at all times.
+   * Demonstrate a consistent, positive, and team-focused demeanor.
+   * Take independent ownership of assigned tasks and processes.
+   * Exhibit high urgency, attention to detail, and accountability.
+* Performance Goals During a PIP:
+   * Accepting feedback calmly and applying it accurately.
+   * Taking initiative to complete tasks without reminders.
+   * Increasing accuracy, accountability, and communication clarity.
+   * Reducing rework, errors, or delays.
+   * Showing a proactive attitude and professional collaboration daily.
+* Consequences of Not Meeting Expectations:
+   * Extension of the PIP.
+   * Reassignment to a more junior role.
+   * Termination of employment.
+________________
+
+
+B. Key Job Roles & Responsibilities
+* File Coordinator (4 Primary Roles):
+   1. Job File Coordination: Perform daily job file coordination and maintain the Work in Progress (WIP) list.
+   2. Job File Documentation: Review and validate initial field documentation and back up job files.
+   3. Estimates: Create preliminary estimates.
+   4. Communication & Reporting: Handle job file communication, reporting, and audits.
+* Receptionist-Dispatcher (Primary Roles):
+   1. Reception: Handle incoming calls, including First Notice of Loss (FNOL).
+   2. Dispatch & Follow-Up: Dispatch crews and manage pending follow-ups.
+   3. Administration: Handle schedule tracking and general administrative tasks.
+________________
+
+
+C. New Hire Onboarding & 30-Day Plan (Example)
+* Structured Approach: Follow a structured approach of Learn → Progress → Apply → Work.
+* 30-Day Expectations:
+   * Communication & File Management:
+      * Manage communication for a set number of active project files.
+      * Review each assigned file every morning for updates.
+      * Provide a status update to the customer or insurance at least every other day.
+   * Phone, Text & Email Proficiency:
+      * Handle calls confidently.
+      * Promptly respond to all messages to ensure no delays.
+      * Maintain a daily log of all communications and follow-up actions.
+   * Training Module Completion:
+      * Complete assigned LMS modules (e.g., Office Manager) within a set timeframe.
+      * Balance live, hands-on tasks (like audits) with independent training.
+   * Time Management & Performance:
+      * Track daily tasks, file updates, and training progress in a log for review.
+      * Prepare for a 30-day review focused on communication quality, productivity, and resourcefulness.
+* Longer-Term Duties (30-90 Days):
+   * Photo management, customer/insurance updates, scope notes management, logged production, Drybook assistance, Xactimate, and audits.
+   * Later-stage goals can include learning AI prompts and agents to improve efficiency.
+________________
+
+
+VI. Financial & Administrative Processes
+________________
+
+
+A. Financial Basics (SERVPRO Finance 101)
+* Accounting Equation: Assets = Liabilities + Equity
+   * Assets:
+      * Current: Can be converted to cash within a year (e.g., cash, accounts receivable, inventory).
+      * Fixed: Long-term assets (e.g., equipment, furniture, vehicles).
+   * Liabilities:
+      * Current: Short-term debt paid within a year.
+      * Long-Term: Debt paid after 12 months.
+* Cash vs. Accrual Accounting:
+   * Cash Method: Income is recorded when received; expenses are recorded when paid.
+   * Accrual Method: Income is recorded when earned; expenses are recorded when incurred.
+________________
+
+
+B. QuickBooks Online (QBO) Procedures
+* Credit Memos: Used to apply a credit to a customer's invoice.
+   * Scenarios: 3rd party referral fees, call center fees, customer discounts/refunds, damage reimbursement.
+* Refunds:
+   * Scenarios: Overpayment, work not completed, customer satisfaction issues.
+   * Procedure: Should not be recorded on the original customer invoice. Always use Accounts Receivable, a clear description, the customer name, and class.
+* Inter-Office Payables: A special account for when two SERVPRO franchises work together, ensuring proper invoicing by the Host franchise and proper payment to the assisting franchise.
+* Third-Party Referral Fees:
+   * Details: Fees due for leads from sources like Alacrity, Contractor Connection, or the corporate Call Center.
+   * Procedure: Should not be listed on the customer's invoice. Call center fees are often deducted from the client payment managed by SERVPRO HQ.
+________________
+
+
+C. Office Administration
+* Scheduling Non-Emergencies:
+   * The territory can be divided into zones (e.g., 5 zones).
+   * Schedule "1 zone per day" for non-emergency work.
+   * Insight: Zone cleaning works best for carpet, duct, and general cleaning, but not for water and fire restoration, which require immediate response.
+* Office Filing System: Maintain organized physical files for:
+   * Payroll, personnel, owner personal financials, company financials, bank statements, business insurance, sales tax records, vehicle records, royalty reports, and OSHA files.
+* Archiving Files:
+   * What to Archive: Files that must be retained beyond a year but do not need immediate access.
+   * What NOT to Archive: Current employee files and documents should NEVER be archived.
+   * Security: Archived files must be kept in a locked and secured location, protected from damage.
+   * Disposal: NEVER dispose of confidential files by throwing them away; they MUST be shredded, but only after required retention dates have passed.
+Of course. Here is the detailed extraction for Section III.
+III. Communication & Professional Skills
+________________
+
+
+A. Professional Skills Development
+This section outlines 10 core professional skills, including their definition, what they look like in practice, and how to improve them.
+* 1. Sense of Urgency
+   * Definition: Proactively moving through the day with intention, speed, and responsiveness. Staying consistently engaged and attentive to tasks, new requests, and shifting priorities without delays or reminders.
+   * Looks Like:
+      * Quickly acknowledging requests or emails with brief, timely replies.
+      * Following up proactively to confirm tasks are progressing.
+      * Utilizing downtime to handle quick tasks or check the status of ongoing assignments.
+      * Staying attentive and responding rapidly when unexpected issues or needs arise.
+   * How to Improve:
+      * Practice immediate responses, even if just acknowledging receipt of a message.
+      * Periodically ask yourself, "What's most urgent right now?" and shift tasks accordingly.
+      * Keep visible reminders or checklists of daily priorities and adjust as tasks evolve.
+* 2. Accuracy
+   * Definition: Ensuring every task, email, and communication is error-free, reliable, and precise, showing attention to detail and consistency.
+   * Looks Like:
+      * Double-checking work and reports before submission.
+      * Reviewing communications carefully for typos or incorrect information.
+      * Confirming details or unclear instructions rather than assuming.
+   * How to Improve:
+      * Take brief pauses before finalizing tasks to quickly verify details.
+      * Create checklists or quick reference guides to catch common mistakes.
+      * Set a personal rule: review each message or document twice before sending.
+* 3. Time Management
+   * Definition: Effectively scheduling and controlling your workday to maximize productivity, meet deadlines, and complete essential tasks efficiently.
+   * Looks Like:
+      * Clearly scheduling blocks of time for important tasks.
+      * Regularly reassessing priorities to ensure deadlines are met.
+      * Not allowing distractions or low-priority tasks to consume productive hours.
+   * How to Improve:
+      * Start each day with a clear, prioritized to-do list.
+      * Set timed intervals for specific tasks to prevent drifting.
+      * Regularly check progress midway through the day to adjust focus if necessary.
+* 4. Rapid Micro-Communication
+   * Definition: Consistently providing brief, prompt communications that let others know you received their message and are actively working on it.
+   * Looks Like:
+      * Quickly replying with simple acknowledgments ("Got it, will update shortly").
+      * Using short, clear messages to update status or clarify next steps.
+      * Never leaving messages unanswered longer than absolutely necessary.
+   * How to Improve:
+      * Set notifications to check messages regularly at predictable intervals.
+      * Use short phrases ("checking now," "working on it") for swift replies.
+      * Build the habit of immediate acknowledgment even if you don't have the full answer yet.
+* 5. Critical Thinking (Proposal-First Approach)
+   * Definition: Independently analyzing situations, anticipating needs, and presenting potential solutions proactively before seeking further input.
+   * Looks Like:
+      * Proposing solutions rather than waiting for instructions (e.g., "I suggest we do X, does that work?").
+      * Anticipating potential problems and preparing alternative approaches.
+   * How to Improve:
+      * Always brainstorm at least one potential solution before asking questions.
+      * Regularly challenge yourself by thinking, "What would I do if I couldn't ask anyone?"
+      * Insight: Shift from asking "Should I do X?" to stating "This is a water project, I believe a drying report is necessary, can you confirm so I can begin?" This shows ownership and critical thinking.
+* 6. Professional Demeanor
+   * Definition: Demonstrating calm, respectful, confident body language and communication consistently, especially during stress, challenges, or when receiving feedback.
+   * Looks Like:
+      * Maintaining steady eye contact, open posture, and a respectful tone, even when criticized.
+      * Avoiding defensive or dismissive body language, like eye-rolling or crossed arms.
+   * How to Improve:
+      * Practice maintaining composure during challenging conversations.
+      * Actively listen before responding to ensure a thoughtful reply.
+      * Regularly self-assess your tone and body language after interactions.
+* 7. Concise Intentional Communication
+   * Definition: Communicating updates clearly, simply, and briefly—providing exactly the right amount of information without unnecessary details.
+   * Looks Like:
+      * Short, clear bullet points or messages that directly answer the key questions.
+      * Avoiding overly wordy responses or irrelevant details.
+   * How to Improve:
+      * Before sending an update, ask: Can it be shorter? Is it clear? Does it address the key issue without irrelevant information?
+      * Structure updates in a simple format: "Done, Next, and Issues."
+* 8. Documentation Discipline
+   * Definition: Creating and consistently organizing records, files, or information clearly so that any team member can easily find and understand them.
+   * Looks Like:
+      * Clearly named files, folders, and consistent organization patterns.
+      * Taking notes and immediately saving them in the correct, accessible location.
+   * How to Improve:
+      * Schedule 5-10 minutes daily solely for organizing and naming files.
+      * Implement simple naming conventions (e.g., "Date_Client_Task").
+* 9. Ownership and Follow-Through
+   * Definition: Taking full responsibility for assigned tasks from start to finish, ensuring completion without needing constant reminders or supervision.
+   * Looks Like:
+      * Proactively tracking task statuses and deadlines personally.
+      * Checking in frequently on tasks and updating stakeholders before being asked.
+   * How to Improve:
+      * Use personal task-tracking tools to maintain visibility.
+      * Take pride in owning responsibilities fully, including proactively communicating delays or issues.
+* 10. Constructive Feedback Loop
+   * Definition: Regularly and openly accepting, understanding, and rapidly applying feedback to continuously improve performance.
+   * Looks Like:
+      * Asking for specific feedback proactively rather than waiting for performance reviews.
+      * Clearly demonstrating effort to incorporate feedback into immediate action steps.
+   * How to Improve:
+      * Document key feedback points and review them weekly.
+      * Set small, measurable goals based on feedback (e.g., "This week, I'll respond faster.").
+________________
+
+
+B. Communication Best Practices & Templates
+1. Key Principles for Customer Communication
+* Open with Empathy: Acknowledge the customer's stress to build trust.
+   * Example: "Thanks for reaching out—I know this can be a stressful process."
+* Define Terms Clearly: Explain industry jargon in simple language.
+   * Example: "The scope of work is our preliminary outline of tasks we anticipate performing..."
+* Manage Expectations:
+   * Emphasize that initial estimates are "preliminary" and may be adjusted after a detailed inspection.
+   * Specify the conditions that require demolition or removal to set clear expectations.
+   * Provide general timeframes (e.g., "Typically, remediation takes 3–5 days") but note specifics depend on inspection findings.
+* Be Cautious with Tenants: Always coordinate with the property owner, who is the primary payer and decision-maker. Avoid sharing sensitive information (like the presence of mold) with tenants unless the owner approves.
+* Tone & Brevity: Maintain a compassionate, professional tone. Provide sufficient detail but avoid overwhelming the customer with unnecessary information.
+* Proactivity: Anticipate common follow-up questions about cost or timelines and address them preemptively.
+2. Call Handling & Scripts
+* Phone Etiquette Frameworks:
+   * STAR Method: Setting the tone, Take Control, Actively Listen, Recognize Customer needs.
+   * HEAL Method (for angry customers): Hear them out, Ease tension, Act to improve the situation, Leave a positive impression.
+* Fire Damage Intake Call Script:
+   * Greeting & Empathy: "Hi, I’m calling from SERVPRO®... I’m so sorry you’re dealing with this. We understand how stressful it can be, and we’re here to help."
+   * Information Gathering: Politely ask for full name, contact number, address, and email. Ask if they plan to file an insurance claim and if they have the claim number.
+   * Explaining Next Steps & Costs:
+      * "Once your file is set up, we’ll send over some paperwork along with a link for a deposit."
+      * "There is no charge for the estimate or providing a quote."
+      * "However, if you decide not to move forward with our services, we will invoice for the inspection, which typically starts at $650."
+      * "We only ask for a $100 deposit."
+   * Detailing the Inspection:
+      * "Our inspection includes a full walkthrough of your property to check for ash, smoke damage, and odors... We take photos and notes to create a scope of work for your insurance... we recommend a deep cleaning... may also recommend attic insulation removal... assess your contents... Exterior pressure washing... assist with deodorization."
+* Answering Common Customer Questions:
+   * On signing paperwork: "The Authorization to Perform gives us permission to enter your property and complete the inspection. We are ultimately only doing what you authorize us to do."
+   * On inspection-only services: "You can hire us for the inspection only - you would only be responsible for the cost of the inspection."
+   * On why we charge for inspection: "We performed a full on-site inspection... walked the site, ensuring all damage was identified, documented, and supported with detailed photos... took 360-degree camera photos... all of which were reviewed, labeled, and submitted with the estimate to ensure accuracy. Additionally, we collaborated with the insurance adjuster..."
+3. Email & Text Templates
+* General Follow-Up (Estimate Sent, Self-Pay):
+   * "Hello, I'm reaching out to follow up on the estimate and details we provided... Let us know if you’ve had a chance to review everything or if any questions have come up... We understand that decisions like this take time, and we’re here to help however we can."
+* Close-Out (Customer is Non-Responsive):
+   * "Hello, We are following up regarding the restoration project... As we have not connected further on next steps, we wanted to let you know that we will be placing this project on hold for now. Please feel free to reach back out whenever you are prepared to move forward..."
+* Weekend Update (Waiting on Insurance):
+   * Email: "Hello, Hope you're doing well! I wanted to send a quick update before the weekend—we’ve submitted updates to your insurance this week but haven’t heard back yet. Have you heard any updates from your adjuster...?"
+   * Text: "Hello! This is the SERVPRO office checking in. I wanted to send a quick update before the weekend—we’ve submitted updates to your insurance this week but haven’t received a response yet. If you hear anything from them, please let us know..."
+* For Customers with Allergies/Chemical Sensitivities:
+   * Key Points: Apologize for delay, name the specific product (Benefect, a plant-based cleaner), explain its properties (non-toxic, made from thyme/lemongrass oils), and attach the Material Safety Data Sheet (MSDS). Explain the equipment to be used (HEPA air filtration devices, hydroxyl machines) and why they are safe (no chemicals, traps 99.97% of particles). Provide recommendations for trusted vendors for other services (e.g., HVAC, gutter cleaning).
+* Confirming Payment Direction with Insurance:
+   * "...could you please confirm that you’ve received all the documents and whether all future payments for contents, attic cleaning, and related work will be issued directly to SERVPRO? Additionally, would you be able to send a note to the insured clarifying which payments are designated for us? This would help avoid any confusion..."
+Of course. Here is the detailed extraction for Section II.
+II. Technical Processes & Software
+________________
+
+
+A. Software & Systems Overview
+* ClickUp (Project Management Hub)
+   * Function: The main, centralized hub for all project details, tasks, notes, statuses, and team collaboration.
+   * Details:
+      * Holds customer/adjuster info, claim details, phone numbers.
+      * Custom fields are used to track insurance data and job progression.
+      * Subtasks are used to separate production notes (from field technicians) from administrative office notes.
+      * Automations can be set up to trigger actions, like automatically emailing a customer when an estimate is sent.
+      * Insight: Every phone call transcript can be automatically logged into the corresponding ClickUp file's comments, creating a complete communication history.
+      * Tidbit: The keyboard shortcut Ctrl+J can be used to quickly search within ClickUp.
+* Google Drive (Media Repository)
+   * Function: The primary storage location for all job-specific photos, videos, and documents.
+   * Process: Folders are auto-created when a new job is added in ClickUp, but all subsequent file uploads are done manually. Photos are often labeled and sorted into "Damage" folders to provide clear evidence for insurance.
+* TechJoint (CRM & Phone System)
+   * Function: Logs all inbound/outbound calls and text messages with customers.
+   * Features: Can store call transcripts and notes. There is potential to develop a conversational AI chatbot to handle basic customer text inquiries (e.g., scheduling).
+   * Insight: For call transcription to work, the customer's phone number must be correctly assigned to the job/task file.
+* Xactimate (Estimating Software)
+   * Function: The industry-standard tool for creating insurance-based, line-item estimates.
+   * Process: Uses sketches of the property (from 3D scans or manual measurements) to create itemized lists for cleaning, demolition, and repairs. Insurance carriers rely on its pricing guidelines.
+   * Tidbit: When creating fire estimates, a master "scope sheet" (template) can be used to copy-paste all potential line items for a given room (e.g., kitchen) to expedite the preliminary estimate process.
+* Xactanalysis (Insurance Communication Portal)
+   * Function: Used by some insurance carriers (like Allstate, Mercury) to upload, track, and communicate about estimates and documentation. It is the preferred method of communication for these carriers.
+* WorkCenter (SERVPRO Corporate System)
+   * Function: SERVPRO's internal project management system for jobs referred by the corporate call center. It is essentially "ClickUp for SERVPRO, but ten years of older technology."
+   * Process: Requires daily updates to the "Project Snapshot" (job progression dates) to maintain compliance and avoid being "red-lighted" (disqualified from receiving new corporate jobs).
+* Hubstaff (Technician Tracking)
+   * Function: An app on technicians' phones that tracks their location and time on site.
+   * Insight: It provides a daily report showing which jobs were visited and for how long. This is used to confirm "boots on the ground" for the daily production log. It also takes screenshots, which can be used to create SOPs from previously completed work.
+* SiteCam & DocuSketch (Photo Platforms)
+   * SiteCam: Used for day-to-day project photos (demolition, equipment placement, progress checks).
+   * DocuSketch: Provides 3D images and walkthroughs. It is typically used only at the start and end of a job.
+________________
+
+
+B. Estimates & Billing Procedures
+* Estimation Strategies:
+   * Preliminary/Broad Scope Approach: For initial submissions, use a template-based or "broad scope" approach that includes most possible items. This avoids spending excessive time on micro-details for a job that may not be approved. The estimate can be refined later if the adjuster pushes back.
+   * Pricing Models: The model depends on the insurance carrier. Most work on a "per item" basis (itemized count), while others like Mercury work on a SQFT basis for certain jobs (e.g., wildfires).
+* Xactimate Best Practices:
+   * Attach Documentation: Always attach photo documentation as a PDF to the estimate to support line items.
+   * Billing for Insulation: Insulation removal is billed differently for "Batt VS Blown in" types. For Mercury attic cleaning, insulation removal is either by machine or by hand, not both.
+   * Splitting Estimates: It's possible to split estimates between different categories, such as content cleaning and structural cleaning.
+* Billing and Invoicing:
+   * Direct Payment: Getting an "assignment" from an adjuster gives the company direct payment from the insurance, which is the preferred method.
+   * Invoice Tracking: An invoice tracking automation can be set up in TechJoint to manage follow-ups.
+   * Subcontracting Margin Strategy: A target margin of 30-40% is expected when subcontracting work. It is acceptable to refuse services that do not yield fair margins after insurance-approved reductions.
+________________
+
+
+C. Dry Report Process (for Water Jobs)
+* Purpose: A Dry Report is an essential, required document for every water job. It's a summary of the drying process, tracking moisture levels and equipment usage to prevent errors with insurance and justify the work performed.
+* Dry Report Review Checklist (Office Staff):
+   1. Confirm Job Details: Verify customer's name, address, phone, email. Note the date of loss vs. date of report, especially if it was an after-hours call (which affects billing).
+   2. Identify Loss Category and Class:
+      * Category (1, 2, or 3): Indicates water contamination level (Cat 1 is clean, Cat 3 is heavily contaminated).
+      * Class (1, 2, or 3): Indicates the extent of saturation in the affected area.
+   3. Determine Drying Zones: A "zone" is a distinct area that doesn't share airspace with another. Each floor can be its own zone.
+   4. Verify Equipment Placement: Check that the number and placement of dehumidifiers (typically one per zone) and air movers match the system's recommendations and technician's notes.
+   5. Match Wet Percentages: Compare the technician’s estimated wet percentages for walls, ceilings, and floors against the job photos.
+   6. Check the Sketch: The sketch should provide a top-down view showing equipment placement and color-coded rooms reflecting the affected surfaces.
+   7. Validate Moisture Readings: Ensure each material has a daily reading, tracking the progress from wet to dry. The drying goal is always 10.
+   8. Document Non-Photographable Items: Ensure detailed notes exist for tasks that can't be verified by photos, such as moving contents, small containments, or partial demolition behind fixtures.
+   9. Resolve Discrepancies: If system entries contradict technician notes (e.g., notes mention 7 air movers but the report shows 3), comment in the document and request revisions.
+________________
+
+
+D. Job File Audit (JFA) and Compliance
+* Purpose: A final review of a job file before closing to check for missing documents and ensure everything is properly uploaded, labeled, and compliant. This is an essential step to avoid unclaimed referrals or incomplete invoices.
+* JFA Checklist:
+   * Photos: Confirm photos from SiteCam/DocuSketch are present.
+   * Contracts: Verify signed customer contracts and insurance approvals are on file.
+   * Compliance: Ensure asbestos/lead reports are included if applicable.
+   * Invoice: Confirm the final invoice matches the documented scope.
+   * Payment Status: Payment must always be verified via the ClickUp accounting file, which is the single source of truth. Partial payment does not mean the audit is complete.
+* JFA Process in WorkCenter:
+   * The JFA process is managed through the AUD (Audits & Uploads Dashboard).
+   * Tidbit: An asterisk (*) next to a job in the AUD dashboard means it is expected to take longer than the standard 7-10 day cycle.
+________________
+
+
+E. Equipment Overview by Job Type
+* Water Damage:
+   * Dehumidifiers (Dehus): Extract moisture from the air.
+   * Air Movers (Fans): Accelerate evaporation by circulating air.
+   * Air Scrubbers (AFDs): Used if the water is contaminated (e.g., sewage) to filter harmful particles.
+* Mold Remediation:
+   * Air Scrubbers (AFDs): The primary equipment used to capture airborne spores. Fans are not used as they would spread spores.
+   * Hydroxyl Generators: Can be used alongside air scrubbers.
+* Fire Damage:
+   * Air Scrubbers: Used to filter soot and smoke particulates from the air.
+* Odor Control:
+   * Ozone Machines: Eliminate strong odors but require the property to be vacant as ozone is hazardous.
+   * Hydroxyl Generators: A safer option that neutralizes odors without requiring evacuation.
+Of course. Here is the detailed extraction for the final subsection, C.
+I. Core Operations & Procedures
+________________
+
+
+C. Project Management Workflow
+1. The "Why": The Four Pillars (Pre-Work Requirements)
+* Purpose: To manage risk and ensure the company is protected legally and financially before committing significant resources to a job. These four pillars must be satisfied before moving a job into the full execution phase.
+* The Four Pillars:
+   1. Signed Paperwork/Contract:
+      * What it is: All required documentation (contracts, work authorizations) must be signed by the customer and filed.
+      * Why it's important: This protects the company legally and ensures the responsible party has formally agreed to the scope of work. Claim information must be attached.
+   2. Insurance Coverage/Approval:
+      * What it is: Direct communication with the insurance adjuster to confirm coverage for the specific work required.
+      * Why it's important: This is especially crucial for insurance-billed jobs. Lack of pre-approval for certain tasks (e.g., mold remediation, extended equipment usage) can lead to uncovered services and denied payments.
+   3. Compliance Checks (Asbestos & Lead):
+      * What it is: Testing for hazardous materials based on the property's age and location.
+      * Why it's important:
+         * Asbestos testing is required for properties built before 1981.
+         * Tidbit (Regional Rules): In specific districts like Los Angeles (AQMD regulations), testing may be required for all jobs regardless of property age if insurance is involved.
+         * Lead testing often applies to structures built before 1978.
+         * Even if not mandated by law for newer properties, insurance carriers may still require clearance before approving demolition.
+   4. Payment Confirmation:
+      * What it is: Confirming that partial or full payment arrangements are in place.
+      * Why it's important: This is analogous to a customer buying a product in a store: "you can’t ‘take the banana’ without paying first." It ensures the company will be compensated for its work.
+      * Insight (Payment Dynamics):
+         * Insurance Assignment: When an adjuster gives an "assignment," the insurance carrier pays the company directly. This reduces the risk of non-payment from the customer but may require concessions (e.g., discounts on services) due to stricter audits.
+         * Without an Assignment: The insurance payment goes to the customer, who is then responsible for paying the company. This can lead to delayed or even non-payment.
+2. The "What": Project Lifecycle Stages & Key Tasks
+* Phase 1: Project Initiation
+   * Action: Research and initial customer contact.
+   * Tasks:
+      * Send and verify signed paperwork (contracts, authorizations).
+      * Coordinate an on-site inspection to gather details for an estimate (measurements, photos).
+      * Create a preliminary scope and perform the first update in the DryBook.
+* Phase 2: Project Plan
+   * Action: Define the project scope and prepare the estimate.
+   * Tasks:
+      * Determine what the job needs vs. what the customer wants (e.g., trying to save flooring vs. removing it). Document any customer requests that deviate from standard protocols to reduce liability.
+      * Create the estimate in Xactimate.
+      * Communicate the scope to the customer and adjuster, and get formal approval.
+      * Review required client compliance bulletins.
+* Phase 3: Project Execution
+   * Action: Managing the on-site production cycle.
+   * Tasks:
+      * Conduct a daily Work in Progress (WIP) meeting to review active jobs.
+      * Stage and set up necessary equipment (air movers, dehumidifiers, etc.).
+      * Perform the work (e.g., demolition, drying), documenting progress daily with photos and scope notes.
+      * Administrate: Update all systems (ClickUp, WorkCenter) with progress.
+      * Communicate: Provide daily updates to the customer and insurance.
+* Phase 4: Final Walkthrough
+   * Action: Final quality inspection before project closeout.
+   * Tasks:
+      * Verify no moisture remains in the structure, checking adjacent rooms and hidden spaces (e.g., subfloors, behind cabinets).
+      * Create and resolve a "punch list" of any remaining items.
+      * Obtain the signed Certificate of Satisfaction (COS) from the customer.
+* Phase 5: Project Closeout
+   * Action: Final review, documentation update, and payment.
+   * Tasks:
+      * Move the job file to "Billing" status.
+      * Create and send the final invoice.
+      * Perform the Job File Audit (JFA): A final review to ensure all documents (photos, signed contracts, compliance reports, final invoice) are properly uploaded and labeled.
+      * Customer Experience: Send a "thank you" gift (e.g., a candle) and request a Google Review.
+3. The "How": Workflow Management in ClickUp
+* Status Management is Vital: Adjusting a status in ClickUp is a critical action, as it can trigger automated workflows, checklists, or notifications. Inaccurate statuses create confusion and can lead to missed steps.
+* Standard Status Flow:
+   1. New Lead: A new, unvetted inquiry.
+   2. Hot Lead: An estimate has been sent, but paperwork is not yet signed.
+   3. Secured Lead: Paperwork is signed, and the job is ready to be scheduled. The team is actively working, but no drying equipment is on-site yet.
+   4. Secured Production: This status is used only when equipment (dehumidifiers, air movers, etc.) is physically on-site.
+   5. Billing: On-site work is complete, and the equipment has been removed. The file is ready for invoicing.
+   6. JFA & Close Out: The final review stage before the project is officially closed.
+   7. Closed: The project is 100% complete, paid, and audited.
+* Specialized Statuses: For large-scale events like wildfires, additional statuses are used to track specialized leads from corporate (e.g., "WF New," "WF Inspected").
+Of course. Here is the detailed extraction for subsection B.
+I. Core Operations & Procedures
+________________
+
+
+B. Daily Production Log Review
+1. The "Why": Purpose and Importance
+* Centralized Quality Control: The production log is the primary tool for daily quality control. It provides a system of checks and balances to ensure all required items (photos, scope notes, statuses, approvals, updates) are accounted for each day a job is visited.
+* Verification of Work: It confirms that technicians were physically on-site ("boots-on-the-ground confirmation") and that the work performed aligns with the documented scope. This prevents billing discrepancies and insurance pushback.
+* Trigger for Action: The daily review of the log is the trigger for all subsequent office tasks for that job, including customer updates, insurance communications, and internal follow-ups. It ensures no job "slips through the cracks."
+* Proactive Issue Identification: By reviewing logs daily, the office staff can verify that each visit was completed properly and promptly catch potential changes to the scope or issues in the field (e.g., newly discovered mold, incomplete work, poor quality photos).
+2. The "How": The Daily Workflow for the Office Team
+* Step 1: Accessing the Daily Log
+   1. Each day, open the “Logged Production Visit” tasks in ClickUp for the previous day’s jobs. This is typically done in the morning to allow technicians time to upload their notes and photos from the day before.
+   2. The jobs on this list are considered 100% confirmed visits. A job is only added to the log after confirming the crew physically arrived and spent a qualifying amount of time on site.
+      * Tidbit: A visit must be at least 15 minutes or longer to be considered a qualified visit. Short stops (e.g., driving by, dropping something off for a few minutes) are not logged. This is verified using the Hubstaff app, which tracks technician locations and time spent at job sites.
+* Step 2: Reviewing Documentation for Each Job on the Log
+   1. For each job visited, the office team must complete a checklist of verification tasks:
+   2. Check Photo Uploads:
+      * Go to SiteCam to confirm daily photos were uploaded.
+      * Insight: Use the date filter in SiteCam to quickly verify that photos were uploaded for the specific visit date. If the date is bold, photos are present.
+      * Go to DocuSketch to confirm uploads.
+      * Procedure: DocuSketch is only used for the first and last visit to capture initial and final 3D walkthroughs.
+   3. Check Scope Notes:
+      * Open the “Scope and Prod Notes” subtask in ClickUp.
+      * Confirm the technician has entered their notes under the correct date for the visit.
+      * Crucial Step: Compare the technician’s notes to the photos to ensure they align. If a technician missed details, add an "office/manager note" underneath to capture the missing items and support the bill.
+         * Example: If photos show a containment barrier but the notes do not mention one, the office must add a note to ensure it gets billed correctly.
+   4. Quality Control & Status Check:
+      * Use the photos to confirm the job's stage matches its formal status in the project management system (e.g., “Need to Inspect,” “Need Estimate”).
+      * If you see something incomplete or incorrect (e.g., major damage shown in photos but not mentioned in notes), flag it immediately for follow-up with the technician.
+* Step 3: Triggering Communications Based on the Review
+   1. The review of notes and photos provides the necessary information to craft meaningful updates.
+   2. Update to the Customer:
+      * Goal: Overcommunicate. Keep the customer informed to manage expectations and capture any issues before they escalate.
+      * Content: The update should include what was done, what the next steps are, and any concerns.
+      * Timing: An update should be sent after every visit.
+   3. Update to the Insurance / Job Progress:
+      * Goal: Overcommunicate. Ensure compliance with all insurance and program requirements/bulletins.
+      * Content: Send a concise summary of the progress, any new findings, and the next steps.
+      * Process for Approvals: If approvals are required, request them promptly with supporting notes and photos.
+         * Example: For an AAA job, if the review shows that equipment has been on-site for three days, this triggers an immediate, documented request to the adjuster for approval to continue, per AAA's bulletin.
+      * Communication Platforms:
+         * Xactanalysis: This is the priority and preferred way to communicate with insurance for assigned projects.
+         * Direct Email: If Xactanalysis is not used, a standard email format is used (e.g., for Mercury claims).
+         * ServPro Snapshot on WorkCenter: Job progression and dates must be updated daily for active jobs that came from the corporate call center. Do not update if the job is "canceled."
+Of course. Here is a more detailed extraction for "I. Core Operations & Procedures - A. Production Calls and Notes," incorporating additional context, insights, and examples from across the entire document to provide a richer training resource.
+I. Core Operations & Procedures
+________________
+
+
+A. Production Calls and Notes
+1. The "Why": Purpose, Strategy, and Importance
+* Core Principle: Everything must be captured, documented, and centralized. The motto is: "write everything down, everything, everything, everything." This prevents confusion, maintains consistency, and creates a "paper trail" for every interaction in case of disputes.
+* Primary Goal of Calls: To identify anything unusual or odd in the field that requires an update to the project's scope or needs to be documented in writing to manage liability and billing.
+* Strategic Importance with Insurance:
+   * Combating Vagueness: Adjusters may provide vague approvals (e.g., "granting approval for this and this"). It is crucial to follow up with specific, written questions to clarify the scope. Failing to do so can lead to mistakes and unpaid work, as adjusters may intentionally be vague to exploit errors.
+   * Justifying Billing: Thorough documentation is essential for success in insurance-based work. Adjusters will scrutinize notes for precise wording and coverage breakdowns. AI can be used to generate "best arguments" for claim justifications if needed.
+   * Managing Liability: Precise notes protect the company.
+      * Example (Pre-existing Conditions): A client had a water damage job where pre-existing mold was discovered. The notes and communication had to be extremely clear that the pre-existing mold was not connected to the covered water loss and would not be covered by insurance, preventing the company from being held responsible for it.
+   * Compliance: Proper notes and daily updates are required to avoid penalties (like being "red-lighted" by corporate) and to ensure payment. Insurance bulletins dictate specific items that must be put in writing.
+2. The "What": Content to Capture in Scope Notes
+* Photos vs. Notes: These two forms of documentation work together to tell the full story.
+   * Photos Show: The overall, visible scope of work like demolition and removals. Before-and-after shots are more efficient for review than daily incremental photos. They are the main proof for visible tasks.
+   * Scope Notes Capture What Photos Cannot: They provide crucial details for billing that are not visible in pictures. This is the most critical function of scope notes.
+* Specific, Billable Details to Document in Notes:
+   * Content Manipulation: This is a key detail to capture.
+      * Examples: Emptying dresser drawers, removing contents from under a sink, detaching a fridge or washer/dryer. These actions represent billable labor hours that photos do not show.
+   * Hidden Conditions:
+      * Examples: The presence and type of insulation, mold growth found behind walls, double-layer flooring discovered during demolition.
+   * Additional Labor & Challenges:
+      * Examples: The extra time required for "tight demo work" in a confined space (e.g., under a sink), the labor involved in removing nails after demolition, sanding mold off beams.
+   * Containment:
+      * Example: In one job, photos clearly showed a containment barrier, but the technician's notes stated "no containment." The office must review photos against notes to catch these discrepancies and add a correcting note, ensuring the containment is billed for.
+* Distinguishing Note Types:
+   * Important and Needed Notes: Details on content manipulation, specific conditions (mold, insulation), and extra labor.
+   * "Good to Have" Notes: General daily progress that is already obvious in photos (e.g., "removed six feet of drywall").
+3. The "How": Process & Workflow for the Office Team
+* Daily Review: The office team is responsible for reviewing technician scope notes daily and comparing them against job photos for accuracy and completeness.
+* Technician's Role vs. Office's Role: Technicians are in the field and may write notes in a hurry. The office team's job is to "have their back" by reviewing documentation to capture missing details that are critical for billing and compliance.
+* Workflow for Reviewing Notes:
+   * Start with Photos: First, review the photos to get a visual understanding of the work completed (e.g., drywall removed, flooring pulled up).
+   * Review Scope Notes: Next, read the technician's scope notes, focusing on finding details that support non-visible work.
+   * Add Office/Manager Notes: If a technician missed details visible in photos or failed to document billable actions, the office adds a clarifying note directly below the technician's entry for that day.
+      * Example: Below a technician's note for February 5th, an office note might be added: "Per photos, also note: containment barrier with zipper door set up in living room; content manipulation of kitchen sink cabinet." This ensures these items are added to the estimate.
+* Tools for the Process:
+   * ClickUp: Serves as the central hub. Production notes from technicians are stored in a specific subtask (e.g., "Scope and Prod Notes").
+   * SiteCam/DocuSketch: The platforms where daily photos are uploaded by technicians.
+   * AI (ChatGPT): Can be used to summarize lengthy reports or transcripts to quickly identify key findings.
+4. Direct Integration with Other Systems
+* Xactimate Billing: The primary function of detailed scope notes is to provide the line-by-line justification for the final bill created in Xactimate. The process is:
+   * Use photos to identify major billable items (demolition, floor removal).
+   * Use scope notes to add all non-visible work (antimicrobial application, content manipulation, insulation removal).
+* Drybooks: The progress and details recorded in Drybooks (for water jobs) are directly informed by the daily scope notes.
+* Client & Insurance Updates: All communication is based on the verified information from photos and notes. This includes requesting necessary approvals based on findings.
+   * Example: Notes from a site visit reveal that drying equipment will be needed for more than three days. This triggers the office to immediately send a formal request for approval to the AAA adjuster, as required by their bulletin, preventing a potential denial of payment for the extra days.
+Of course. Here is the first section, "Calling Customers: Scheduling & Following Up," rebuilt with an exhaustive level of detail, incorporating every relevant insight, example, and tidbit from the provided materials to serve as a master training guide.
+________________
+
+
+The Ultimate Operational Playbook: Section 1
+1. Calling Customers: Scheduling & Following Up
+Core Principle: Every customer interaction is an opportunity to build trust, manage expectations, and reinforce our reputation for professionalism and empathy. This is not just an administrative task; it is the foundation of the customer experience. Our goal is to be a calm, confident, and guiding force during what is often a stressful time for the client.
+________________
+
+
+A. The Initial Call: Scheduling a New Lead
+This is our first direct conversation with a potential customer. It sets the tone for the entire project.
+* Mindset & Tone:
+   1. Empathy First: Begin with the understanding that the person on the other end of the line is likely stressed, anxious, or overwhelmed. Your tone must be calm, patient, and reassuring.
+   2. Project Confidence, Not Salesmanship: You are not a salesperson trying to close a deal. You are a professional coordinator guiding them through the first step. Project competence and control.
+   3. The STAR Method:
+      * Setting the Tone: Be positive and empathetic from the first word.
+      * Take Control: Gently guide the conversation using our script and process.
+      * Actively Listen: Pay attention to their specific concerns and document them.
+      * Recognize Customer Needs: Understand their primary pain point and align our solution to it.
+   4. * * Pre-Call Preparation (The 2-Minute Drill):
+   1. 1. Review the File in ClickUp: Never make a call blind. Open the ClickUp task and review all available information from the First Notice of Loss (FNOL).
+      * Know the customer’s full name and pronounce it correctly.
+      * Know the property address.
+      * Understand the stated reason for the call (e.g., "upstairs toilet overflowed," "smells like smoke after a neighbor's fire," "visible discoloration on bathroom wall").
+   2.    3. 2. Check Production Availability: Have the production team's calendar or route open. You need to offer concrete, realistic scheduling windows.
+   4. 3. Internalize the Script: Review the intake call script. The goal is not to read it like a robot, but to know the key points you must cover so the conversation flows naturally.
+* * The Call Itself: A Step-by-Step Breakdown with Scripting
+   1. Greeting & Empathetic Opening:
+      * Script: "Hi, is this [Customer Name]? This is [Your Name] calling from SERVPRO. I’m following up on the information we received about the water damage at your property on Main Street. First off, I know this can be a really stressful situation, and I want to assure you we're here to help you through it."
+      * Insight: This immediately establishes empathy and confirms you have the right person and basic details, showing competence.
+   2.    3. Verify & Explain the Next Step:
+      * Script: "I just want to confirm, the address we have is 123 Main Street, is that correct? ... Great. The very next step in our process is to schedule a visit from one of our lead technicians, Peter. He'll come out to do an initial inspection, take some photos and measurements, and assess the full scope of the situation. This will give us the information we need to create a clear plan of action."
+      * Tidbit: Using the technician's name ("Peter") makes the process feel more personal and less corporate.
+   4.    5. The Money Conversation: Handling Deposits & Inspection Fees (CRITICAL):
+This is the most sensitive part of the call. Be clear, confident, and transparent.
+   * For Insurance Jobs (The most common scenario):
+   * Script: "Are you planning to file an insurance claim for this? ... Okay. Do you happen to have your claim number and your adjuster's contact information yet? ... No problem if you don't, we can get that later. In cases where insurance coverage hasn't been officially confirmed by the adjuster yet, our standard procedure is to take a small, fully refundable $50 deposit to hold your spot on the schedule. Once coverage is confirmed, that deposit is immediately returned to you."
+   * Insight: Framing it as a "refundable deposit to hold your spot" is much softer than a "fee." It creates a sense of urgency and value.
+   *    * For Self-Pay Jobs:
+   * Script: "For projects paid for directly, we offer two options. We can perform just a detailed inspection, which includes a full report, photos, and moisture readings. The fee for the inspection-only service starts at $650. However, if you decide to hire us to do the restoration work, that inspection is completely complimentary, and we would only require a $100 deposit to get the project started. Which option sounds like a better fit for you right now?"
+   * Tidbit: Presenting options empowers the customer and makes them feel in control of the decision.
+   *    6.    7. Scheduling the Visit:
+   * Script: "Looking at our schedule, Peter is going to be in your area tomorrow. He has an arrival window between 9 AM and 11 AM, and another between 1 PM and 3 PM. Does one of those work better for you?"
+   * Insight: Offering a window, not a precise time, manages expectations perfectly. Our work is dynamic, and this prevents us from being "late" for a specific appointment.
+   8.    9. Confirmation & The Proactive Text:
+   * Script: "Perfect, I have you confirmed for tomorrow between 9 and 11 AM. Our technician will give you a call about 30 minutes before he arrives to let you know he's on his way. While we're on the phone, I'm sending you a text message from our main office line right now. This way, you'll have our number saved in your phone. Please feel free to call or text that number anytime with questions. We look forward to helping you."
+   * Why this is a power move: Sending the text live on the call ensures they receive it, save it, and now have an easy, low-friction way to communicate with us. It immediately builds trust and demonstrates our commitment to communication.
+   10.    *    * Immediate Post-Call Workflow:
+   1. Document in ClickUp: Before doing anything else, add a detailed comment to the ClickUp task. Include the date, time, outcome (e.g., "Scheduled inspection for 8/15, 9-11 AM window"), and any specific concerns the customer mentioned.
+   2. Send the Text from TechJoint: This must be done immediately, as promised on the call.
+   3. Send Paperwork: If the customer agreed, send the PandaDoc link for the Authorization to Perform.
+   4. Update Status: Change the ClickUp status from "New Lead" to "Need to Inspect".
+   5. Update the Route: Add the confirmed visit to the production team's schedule.
+   * ________________
+
+
+B. Following Up on Sent Estimates ("Hot Leads")
+   * Mindset: You are a helpful guide, not a pushy salesperson. Your goal is to remove friction, provide clarity, and make it easy for the customer to say "yes."
+   * The Follow-Up Cadence (A Disciplined Rhythm):
+   1. Frequency: You must make contact at least every other day. No file should go silent for more than 48 hours.
+   2. The Alternating Strategy:
+   * Day 1: Follow up with the insurance adjuster.
+   * Day 2: Follow up with the customer.
+   * Day 3: Follow up with the insurance adjuster.
+   * ...and so on.
+   3.    4. Why this works: It keeps pressure on the approval process from both sides without overwhelming either party. It also positions us as the central, coordinating force.
+   *    * The Follow-Up Call with the Customer: A Step-by-Step Breakdown
+   1. Greeting & Gentle Reminder:
+   * Script: "Hi [Customer Name], it's [Your Name] from SERVPRO, just giving you a quick call. I wanted to follow up on the estimate we sent over on Tuesday for the water damage work. Did you have a chance to look it over?"
+   2.    3. Open the Door for Questions:
+   * Script: "I know those estimates can be a bit detailed. Were there any parts that were unclear, or did you have any questions about the scope of work we proposed?"
+   * Insight: This invites conversation and helps you uncover any hesitations or misunderstandings that might be holding up the decision.
+   4.    5. Provide a Proactive Insurance Update:
+   * Script: "I also wanted to give you a quick update. I left a message with your adjuster, Rob Foster, this morning to see if he had any feedback on the estimate. I'll let you know as soon as I hear back from him."
+   * Why this is crucial: This shows the customer you are actively working on their behalf. You aren't just waiting for them to do something.
+   6.    7. Empower the Customer & Create a Team Dynamic:
+   * Script: "Just so you know, insurance companies often prioritize responding to their policyholders directly. Sometimes a quick call from you to your adjuster can help move things along faster than my calls can."
+   * Insight: This frames you and the customer as being on the same team, working together to get the project approved. It empowers them to take action without making it feel like their responsibility.
+   8.    9. Clear Closing & Next Steps:
+   * Script: "We have a team ready to schedule your project as soon as we get that approval. I'll continue to follow up on my end, but please don't hesitate to text or call us if you hear anything first. I'll plan to check in with you again in a day or two."
+   10.    *    * Immediate Post-Call Workflow:
+   1. Document Everything: Add a comment in ClickUp: "Spoke with customer. She has reviewed the estimate, no questions. Advised her that we are following up with adjuster Rob Foster. She may call him as well."
+   2. Update the Follow-Up Task: Push the due date for the next follow-up task out by 1-2 days.
+   * Of course. Here is the second section of the playbook, "Calling Insurance: Coverage & Scope Review," rebuilt with an exhaustive level of detail, incorporating every relevant strategy, script, and insight from your provided materials.
+________________
+
+
+The Ultimate Operational Playbook: Section 2
+2. Calling Insurance: Coverage & Scope Review
+Core Principle: Interactions with insurance adjusters are fundamentally different from customer calls. These are strategic, business-to-business conversations where precision, documentation, and a deep understanding of the "rules of the game" are paramount. Our goal is to be professional, firm, and meticulously prepared, ensuring we secure the approvals and justifications needed to get paid fairly and fully for our work.
+________________
+
+
+A. The Mindset: Professional, Prepared, and Persistent
+   * You are a Professional Coordinator, Not a Salesperson: Your tone should be confident, direct, and factual. There is no room for ambiguity.
+   * Documentation is Your Armor: Every verbal conversation is a prelude to a written confirmation. The phone call is for discussion; the Xactanalysis (XA) note or email is the official record. Assume nothing is approved until it is in writing.
+   * Know Your Opponent: We maintain a "Red/Black List" of adjusters who have proven to be difficult. Before calling, check this list.
+   * Example (from notes): For an adjuster like Kenniya from AAA, the rule is "EVERYTHING IN WRITING." This means a phone call is immediately followed by a detailed XA note confirming every single point discussed. For an adjuster like Rob Foster from Crawford & Company, the goal is to avoid him if possible, and if not, to be exceptionally thorough in documentation.
+   *    * The Goal is Clarity, Not Conflict: We are not trying to fight with adjusters. We are trying to eliminate any possibility of misunderstanding by getting clear, written approvals for our scope of work.
+B. Pre-Call Preparation: The 3-Minute File Review
+Never call an adjuster unprepared. Wasting their time erodes credibility.
+   1. Open the ClickUp File:
+   * Have the insured's full name, property address, and claim number ready to announce immediately.
+   2.    3. Open the Xactimate Estimate:
+   * Know the total amount of the estimate you are discussing.
+   * Be ready to reference specific line items if questioned.
+   4.    5. Open the Carrier Bulletin:
+   * This is a critical, non-negotiable step. Each insurance carrier (State Farm, AAA, etc.) has a bulletin that outlines their specific rules.
+   * Know Their Rules Before You Call: Does this carrier require pre-approval for equipment over 3 days? Do they have a specific vendor for asbestos testing? Do they refuse to pay for "clean the rugs" line items? Knowing this prevents you from asking for things they will automatically deny and shows you are a competent partner.
+   6.    7. Review Prior Communications:
+   * Quickly scan previous XA notes or ClickUp comments. What was the last thing discussed? Are you following up on a specific request?
+   8. C. The Call Itself: Scripts & Scenarios for Every Situation
+   * Scenario 1: The Initial Call to Confirm Coverage
+   * Purpose: To verify that a claim is open and that we are authorized to be on-site performing emergency services.
+   * Script:
+   * Introduction: "Hi, this is [Your Name] from SERVPRO. I'm calling about a new water loss for your insured, [Insured's Name], at [Property Address]. The claim number we have is [Claim #]."
+   * The Ask: "We are on-site now beginning emergency mitigation. I am calling to confirm that coverage has been extended for this loss and that we are authorized to proceed with the necessary services to prevent further damage."
+   * Key Follow-Up: "Thank you for confirming. I will also be sending a note through Xactanalysis to document this authorization."
+   *    *    * Scenario 2: Following Up on a Submitted Estimate
+   * Purpose: To get approval on our scope of work and move the project into production.
+   * Script:
+   * Introduction: "Hi [Adjuster's Name], this is [Your Name] from SERVPRO, following up on the estimate we submitted through Xactanalysis on [Date] for the fire damage at the [Insured's Last Name] residence, claim number [Claim #]."
+   * The Ask: "I wanted to see if you've had a chance to review it and if you have any questions. We're ready to schedule the work as soon as we have your approval on the scope."
+   *    *    * Scenario 3: Combatting Vague Approvals (The Most Important Skill)
+   * Purpose: To turn a non-committal verbal approval into a concrete, documented authorization that will stand up in an audit.
+   * The Situation: The adjuster says something like, "You're approved for the affected areas," or "Just handle the necessary work."
+   * Your Response (Polite & Precise):
+   * Script: "Thank you, I appreciate that. Just so my documentation for the file is 100% accurate, can I confirm that the approval includes the specific items from our estimate? That would be the removal of 150 square feet of drywall in the living room, the application of antimicrobial to the exposed framing, and the placement of two air movers and one dehumidifier. Is that correct?"
+   * The Follow-Up: After they confirm, "Perfect. I will send a note through XA right now just to summarize what we discussed for the file. Thank you."
+   *    * Insight: This tactic is not aggressive. It is framed as you doing your job correctly ("for my documentation"). It forces the adjuster to verbally agree to the specific line items, which you then immediately document in writing.
+   *    * Scenario 4: Requesting Approval for Bulletin-Specific Items
+   * Purpose: To get pre-approval for items you know are required by the carrier's rules.
+   * The Situation: You are on an AAA job. The Dry Report shows equipment will be needed for a fourth day.
+   * Your Response (Proactive & Knowledgeable):
+   * Script: "Hi [Adjuster's Name], calling about the [Insured's Last Name] claim. Our drying logs indicate that the affected materials are not yet at the drying goal. Per the AAA bulletin, we need formal approval to leave drying equipment on-site for more than three days. Can you please provide written approval in XA for us to continue drying for an additional two days?"
+   *    * Why this works: You are demonstrating that you know their rules. This positions you as a professional partner, not just another vendor. It makes the approval a simple procedural step for them, rather than a negotiation.
+   * D. Immediate Post-Call Workflow: Document Everything
+This is the most critical part of the process. A call without documentation is a call that never happened.
+   1. Go Directly to Xactanalysis:
+   * If a file exists, this is your first and only stop.
+   * Create a new note. Title it clearly (e.g., "Follow-up Call with Adjuster John Smith").
+   * In the note, include:
+   * Date and time of the call.
+   * The full name of the person you spoke with.
+   * A concise, factual summary of the conversation. Use bullet points.
+   * List every specific item that was approved (e.g., "Approved removal of kitchen cabinets," "Approved 5 days of equipment rental").
+   *    * Tidbit: End the note with a forward-looking statement like, "We will now proceed with scheduling the approved work and will continue to provide updates."
+   2.    3. If No XA File Exists:
+   * Document the call with the same level of detail in the ClickUp comments.
+   * Send a follow-up email to the adjuster that mirrors your ClickUp note. The subject line must be correct (e.g., for Mercury: "Claim #, Insured Name, Type of Loss").
+   4.    5. Update ClickUp:
+   * Change the status of any relevant tasks (e.g., update a tag from "Estimate Sent" to "Estimate Approved").
+   * Add any specific notes or context to the main task description if needed.
+   6. By following this detailed playbook, you ensure that every interaction with an insurance carrier is purposeful, professional, and, most importantly, meticulously documented to protect the company's interests and ensure we are paid for the excellent work we do.
+Of course. Here is the third section of the playbook, "Working with Subcontractors and Vendors," rebuilt with a comprehensive level of detail, synthesizing all relevant information, insights, and tactical advice from the provided materials.
+________________
+
+
+The Ultimate Operational Playbook: Section 3
+3. Working with and Coordinating Activity with Subcontractors and Vendors
+Core Principle: Our subcontractors and vendors are extensions of our team and brand. Our relationship with them must be managed with the same level of professionalism, clarity, and documentation as our client and insurance interactions. Effective coordination is critical for maintaining project timelines, ensuring quality, and protecting our profitability.
+________________
+
+
+A. The Mindset: We are Partners, Not Just Clients
+   * Professionalism is Key: We treat our vendors with respect. This includes clear communication, prompt payment, and honoring their time and expertise. A strong, positive relationship ensures they prioritize our jobs and are willing to be flexible when we need them to be.
+   * Trust but Verify: While we work with trusted partners, it is our responsibility to ensure all compliance and documentation requirements are met before they step on a job site.
+   * Profitability is Paramount: We are not a charity. Every subcontracted job must be financially sound. We do not commit to work that does not meet our required profit margins.
+B. Vendor Selection: Using the Right Partner for the Right Job
+Our choice of vendor is often dictated by the insurance carrier's rules. This is not optional.
+   * The Golden Rule: Check the Carrier Bulletin First.
+   * What it is: The insurance carrier's bulletin is the master guide for all program work. It often contains a list of approved and mandated vendors for specific services, especially for specialty testing.
+   * The Process: Before contacting any vendor for a job involving insurance, you must open the carrier's bulletin and check for their approved vendor list.
+   * CRITICAL INSIGHT: Using a non-approved vendor for a task like asbestos testing can result in the entire cost of the test being denied for payment by the insurance carrier, forcing us to absorb the cost.
+   *    * Our Internal Roster of Trusted Partners:
+   * For non-program work or when the bulletin allows for our choice, we use our own roster of vetted subcontractors.
+   * Examples from notes:
+   * Asbestos/Lead Testing: QE (Quality Environmental) is a frequently mentioned approved vendor.
+   * Specialty Trades: We have established relationships with subcontractors like Armando for specific trades and Terry for balcony repairs.
+   *    * Managing Personalities: Be aware that subcontractors have different communication styles and sensitivities. The notes mention a delicate situation with Armando, highlighting the need to communicate strategically to avoid conflict.
+   * C. The Subcontracting Workflow: A Step-by-Step Guide
+This is the process from initial contact to scheduling the work.
+   1. Scope & Request for Bid:
+   * Action: Provide the subcontractor with a clear and detailed scope of work. This could be a written description, photos, or a portion of our Xactimate estimate.
+   * The Ask: Request a formal, written bid for their services. A verbal quote is not sufficient.
+   2.    3. Compliance Verification (Internal Due Diligence):
+   * Action: Before proceeding, verify that the subcontractor has up-to-date compliance documents on file with us.
+   * Checklist:
+   * Current Certificate of Insurance (COI)
+   * Valid contractor's license
+   * Signed subcontractor agreement
+   *    4.    5. Financial Analysis: Protecting Our Margin (CRITICAL):
+   * Action: Review the subcontractor's bid and compare it to our estimate for the customer.
+   * The Rule: Our target profit margin on all subcontracted work is 30-40%.
+   * Calculation: (Our Billed Amount - Subcontractor's Cost) / Our Billed Amount = Profit Margin
+   * Decision Point: If the margin is below 30%, we do not proceed. We do not take on unprofitable work. It is acceptable and expected to professionally decline jobs where insurance-approved reductions make our required margins impossible.
+   6.    7. Coordination & Scheduling:
+   * Action: Once the bid is approved and the margin is confirmed, you become the central coordinator.
+   * The Three-Way Conversation: You must coordinate the schedule between (1) our internal production team, (2) the subcontractor, and (3) the customer.
+   * Key Steps:
+   * Confirm the subcontractor's availability and proposed start date.
+   * Present that date/time to the customer for their approval.
+   * Once the customer confirms, lock it in with the subcontractor.
+   * Crucial Final Step: Update the master project calendar in ClickUp and add the subcontractor's visit to our crew's daily route so everyone has full visibility.
+   *    8.    9. Communication During Work:
+   * To the Customer: Proactively inform the customer of the subcontractor's schedule, who to expect, and what work they will be performing.
+   * To the Adjuster: Keep the insurance adjuster informed of the schedule for any subcontracted work, especially for major items like asbestos abatement or reconstruction.
+   10. D. The Specialty Testing Process (Asbestos & Lead)
+This is a highly regulated process with zero room for error.
+   * Step 1: Determine the Need for Testing:
+   * Property Age: Is the property pre-1981 (asbestos) or pre-1978 (lead)?
+   * Insurance/AQMD Rules: Does the carrier bulletin or a local regulation (like AQMD in Los Angeles) mandate testing regardless of age?
+   *    * Step 2: Schedule the Test with the Approved Vendor:
+   * Action: Contact the carrier-approved vendor (e.g., QE).
+   * Information to Provide: Give them the customer's name, address, our claim number, the point of contact for access, and a description of the materials to be tested (e.g., "drywall and popcorn ceiling in master bedroom").
+   *    * Step 3: Communication is Key (The Overcommunication Rule):
+   * To the Customer: "Hello [Customer Name], we have scheduled an environmental hygienist from QE to visit your property on [Date] to take a few small samples of the drywall for testing. This is a standard compliance step required by your insurance before we can proceed with any removal. We will let you know the results as soon as we receive them."
+   * To the Adjuster: "This is an update on claim #[Claim #]. Per the requirements of your program, we have ordered asbestos testing for the affected materials at the property. The test is scheduled for [Date]. We will upload the report to XA as soon as it is available and will not proceed with any demolition until we have clearance."
+   * Insight: This proactive communication demonstrates our expertise, manages expectations, and creates a clear record that we are following protocol.
+   *    * Step 4: Document and Distribute the Results:
+   * Action: When you receive the test report from the vendor, it must be handled immediately.
+   * Workflow:
+   1. Upload the full report to the Google Drive folder for the job.
+   2. Upload the full report to the ClickUp file.
+   3. Send a copy of the report to the insurance adjuster via Xactanalysis.
+   4. Inform the customer of the results and the next steps (e.g., "The tests came back negative, so we are clear to schedule the demolition," or "The tests confirmed the presence of asbestos. The next step is to get a bid for professional abatement.").
+   *    * Of course. Here is the fourth section of the playbook, "Creating & Managing Project Documentation," rebuilt with an exhaustive level of detail, synthesizing all relevant procedures, insights, and pro-tips from your provided materials.
+________________
+
+
+The Ultimate Operational Playbook: Section 4
+4. Creating & Managing Project Documentation
+Core Principle: Our documentation is our product. It is the tangible proof of our work, the justification for our billing, and our primary defense in any dispute. Every note, report, and photo must be created with the assumption that it will be scrutinized by an insurance adjuster or auditor. Meticulous and accurate documentation is a non-negotiable standard.
+________________
+
+
+A. Dry Reports (For Water Jobs ONLY): The Official Record of Drying
+   * Mindset: The Dry Report is a legal and financial document. It must be 100% accurate, compliant with IICRC S500 standards, and updated daily. There is no grace period.
+   * The Workflow: From Field to Final Report
+   1. Initial Setup (Adiel's Role, Malaya's Review):
+   * Immediately after the first site visit, an initial Dry Report template is created.
+   * This template is then set up in SERVPRO's WorkCenter.
+   * Malaya reviews the initial setup to ensure it's correct before daily updates begin.
+   2.    3. Daily Updates (Adiel's Role, Wendy's Oversight):
+   * Frequency: This is a daily task. A report must be updated every day that we are on a water job.
+   * Source of Information: The moisture readings and equipment adjustments are provided by the field technicians.
+   * Wendy's Role: Wendy oversees the entire process to ensure accuracy and compliance.
+   4.    5. The Dry Report Review Checklist (Office Staff):
+This checklist must be used when reviewing a Dry Report for accuracy before it is finalized.
+      * [ ] Match Room Names: CRITICAL RULE: The room names in the Dry Report must match the room names on the Xactimate sketch and bill EXACTLY. If Xactimate says "Master Bedroom," the Dry Report cannot say "Main Bedroom." Discrepancies will trigger an audit rejection.
+      * [ ] Confirm Job Details: Verify the customer's name, address, and the date of loss. Note if the call was after-hours, as this affects billing.
+      * [ ] Check Category and Class: Ensure the water loss is correctly categorized (Cat 1, 2, or 3 for contamination level) and classed (Class 1, 2, or 3 for saturation level).
+      * [ ] Validate Equipment: Cross-check the equipment listed in the report (type and count) with the technician's scope notes and photos. Ensure the "Validation" tab shows equipment placed on Day 1, and the "Monitoring" tab shows any equipment added later.
+      * [ ] Track Moisture Readings: The goal for every material is to reach a drying standard of 10. The report must clearly show the daily progress toward this goal.
+      * [ ] Document the "Three W's": For every material listed, the report must clearly answer:
+      1. When was it wet? (The first reading)
+      2. When was it dry? (The date it met the goal)
+      3. If it didn't dry, When was it removed? (The date of demolition)
+      *       6.       * B. Scope Notes: The Story Behind the Photos
+      * Mindset: Photos show what we did; scope notes explain how we did it and document the crucial, non-visible details that justify our bill. The office's job is to act as a detective, reviewing photos and tech notes to build the complete, billable story.
+      * The Workflow: From Technician Brain to Billable Line Item
+      1. Source (Technician's Notes): After every site visit, the technician uploads their notes to the "Scope and Prod Notes" subtask in ClickUp.
+      2. The Office Review (Daily Task):
+      * Start with Photos: First, quickly review the SiteCam photos for that day to get a visual overview of the major work performed (e.g., "Okay, they demoed the kitchen wall").
+      * Read the Tech's Notes: Read the technician's notes for that day.
+      * Compare and Enhance (The "Detective" Work): This is the most critical step. Compare the photos to the notes and hunt for missing billable details.
+      * Pro Tip: Have two windows open: one with the photos, one with the scope notes.
+      *       * Add "Office Notes": Directly below the technician's entry, add a bulleted list titled "Office Notes" to capture everything they missed.
+      * Example from notes: A technician's note says, "Removed drywall in living room." The photos, however, show a plastic containment barrier with a zipper door.
+      * Your Action: You add:
+* **Office Notes (per photos):**
+* Set up 10x10 ft containment barrier with zipper door.
+* Confirmed drywall was double-layer, requiring extra labor.
+* Performed content manipulation of large sofa to access the wall.
+      * Insight: You just added three billable line items to the estimate that might have been missed. This is how we ensure profitability.
+         *          3.          * C. Estimates & Scope of Work: Building the Financial Document
+         * Mindset: The estimate is the financial blueprint for the project. It must be detailed, accurate, and completely justified by our photos and scope notes. Every line item must be defensible.
+         * The Workflow: From Information to Invoice
+         1. Gather All Documentation: Before starting, collect all necessary information:
+         * All relevant job photos, clearly labeled.
+         * The complete and enhanced "Scope and Prod Notes" from ClickUp.
+         * Any mold reports, asbestos/lead test results, or other vendor documents.
+         2.          3. Create the Estimate Subtask in ClickUp:
+         * Create a new subtask titled "Create Estimate."
+         * In the description, you must include:
+         * A list of all affected rooms.
+         * A summary of the specific work needed in each room.
+         * Links to the Google Drive photo folders (not individual photos, unless necessary).
+         *          4.          5. Build the Estimate in Xactimate (Wendy's Role):
+         * The Foundation is Demolition: Start by adding the major "tear out" and removal line items.
+         * Layer on the Details from Scope Notes: This is where the "Office Notes" become money. Go through the notes and add every single non-visible task:
+         * WTR-CONTM (Content Manipulation)
+         * WTR-CONTAINC (Containment Barrier)
+         * HMR-LAB (Hourly Labor for difficult tasks)
+         * WTR-AMCRB (Antimicrobial Application)
+         *          * Use the Tools for Precision:
+         * DocuSketch: Use the 3D tour to count outlets, light fixtures, and other items for "detach and reset" charges.
+         * Xactimate Pro Tip: To accurately bill for removing materials from behind cabinets, select the cabinet in the sketch, go to its Properties, and choose "No" for the "measurement behind" option. This forces Xactimate to calculate the linear footage of the wall, not the cabinet, resulting in a more accurate (and often larger) measurement.
+         *          * Add Equipment Charges: Open the finalized PDF of the Dry Report. Go room by room in Xactimate and add the equipment line items (WTR-DRY, WTR-DHM) using the total calculated hours from the report.
+         6.          7. Finalizing the Bill & Creating the Invoice:
+         * The completed Xactimate bill is the final scope.
+         * An invoice is then created in QuickBooks, often triggered by a ClickUp automation. The amount on the invoice must match the final, approved Xactimate bill exactly.
+         8.          * D. Photo Management: Our Visual Evidence
+         * Mindset: Every photo is a piece of evidence. It must be clear, relevant, and properly filed.
+         * The Daily Photo Workflow:
+         * Download (Abby's Role): Download all new photos from SiteCam every day.
+         * Label (Adiel's Role): Photos are labeled with a consistent naming convention (e.g., Date_Client_Task_Room).
+         * Organize (Abby's Role): The labeled photos are moved into the correct, pre-existing folders in Google Drive.
+         * Insight: We often create a specific "For Adjuster" folder where we put the most compelling photos that justify our scope of work. This saves the adjuster time and makes our estimate easier to approve.
+         *          *          * The Photo Quality Checklist:
+         * [ ] Is there a photo of the front of the structure? (Required for most insurance files).
+         * [ ] Are there clear "before," "in-progress," and "after" photos for each area?
+         * [ ] Do the photos visually support the most expensive or unusual line items in our estimate? (e.g., if we bill for double-layer drywall, there must be a clear photo showing it).
+         * [ ] Are the photos in focus and well-lit? A blurry photo is useless as evidence.
+         * Of course. Here is the fifth section of the playbook, "Office & Systems Management," rebuilt with a comprehensive level of detail, synthesizing all relevant procedures, strategies, and cultural nuances from your provided materials.
+________________
+
+
+The Ultimate Operational Playbook: Section 5
+5. Office & Systems Management
+Core Principle: A well-run office is the central nervous system of our entire operation. Efficiency, organization, and proactive system improvement are not just administrative tasks—they are strategic functions that enable our field teams to perform at their best and ensure the company remains profitable and compliant.
+________________
+
+
+A. Email Communication: Our Digital Voice
+         * Mindset: Every email we send is a reflection of our brand. It must be professional, clear, and aligned with our company's tone. We aim for a voice that is friendly, cooperative, and empathetic, yet professional and direct.
+         * The Email Drafting Process: A Structured Approach
+We do not just "write emails." We craft them strategically.
+            * Determine the Purpose: Before typing a single word, ask: "What is the primary goal of this email? Do I need to inform, request approval, or de-escalate?"
+            * Gather Relevant Information: Collect all necessary details (claim number, project status, a link to the relevant photo, etc.).
+            * Assess the Tone: The tone must match the audience.
+            * Client: Empathetic, reassuring, and simple. Avoid jargon.
+            * Adjuster: Factual, professional, and direct. Reference claim numbers and specific line items.
+            * Subcontractor: Clear, concise, and focused on logistics and scope.
+            *             * Leverage AI for the First Draft (ChatGPT):
+            * The Prompt: Provide the AI with the purpose, key information, and desired tone.
+            * Pro Tip: For consistency, generate multiple drafts in different styles (e.g., "Write a friendly email," "Write a formal email") and choose the one that best fits.
+            *             * Refine and Personalize: CRITICAL: The AI draft is the starting point, not the final product. You must review and edit it to ensure accuracy, add personal touches (like acknowledging a weekend or a previous conversation), and align it with our company voice.
+            *             * Key Email Templates & Scenarios:
+            * The Weekend Update (for clients, when waiting on insurance):
+            * Purpose: To show the client we are still actively working on their file even if there is no major news. It prevents them from feeling forgotten.
+            * Script: "Hello [Customer Name], Hope you're doing well! I wanted to send a quick update before the weekend—we’ve submitted updates to your insurance this week but haven’t heard back yet. Have you heard any updates from your adjuster? If you get any updates from them, please let us know, and we’ll do the same on our end. Thanks, and have a great weekend!"
+            *             * The "Non-Responsive Customer" Close-Out:
+            * Purpose: To professionally place a file on hold after multiple follow-up attempts have been ignored, while leaving the door open for future business.
+            * Script: "Hello, We are following up regarding the restoration project... As we have not connected further on next steps, we wanted to let you know that we will be placing this project on hold for now. Please feel free to reach back out whenever you are prepared to move forward..."
+            *             * The "Sensitive Topic" Email (e.g., for clients with allergies):
+            * Strategy: Be highly detailed and transparent. Name the specific products we use (Benefect, a plant-based cleaner), explain why we use them (non-toxic), and attach the Material Safety Data Sheet (MSDS). Explain our equipment (HEPA filters, hydroxyl machines) and why they are safe. This level of detail builds immense trust.
+            *             * B. Text Message Communication: Concise & Action-Oriented
+            * Mindset: Texts are for quick, essential updates, not long conversations. The goal is clarity and speed.
+            * The 3-Sentence Rule: We strive to keep all text messages to a maximum of three sentences.
+            * AI for Brevity: We use a specific ChatGPT prompt to convert our longer email drafts into concise, text-friendly messages. The prompt should ask the AI to "remove formatting, keep it under three sentences, and focus on the key action or information."
+C. Office Tidiness and Supply Management
+            * Mindset: The state of our office reflects the state of our operations. A clean, organized space promotes clear thinking and efficiency. This is a shared, proactive responsibility.
+            * "Downtime is Go Time": When you have a lull between tasks, this is your go-to checklist.
+            * Inventory Check:
+            * Production Supplies: Are we low on any essential field supplies? Check stock levels.
+            * Office Supplies: Check paper, toner, pens, etc.
+            * Action: Update the central supply list or notify the designated person.
+            *             * General Tidiness:
+            * Organize the supply closet.
+            * Wipe down the kitchen counters.
+            * Ensure common areas are neat and professional.
+            *             * Equipment Maintenance:
+            * Check that returned equipment is clean and stored properly.
+            * Water the office plants.
+            *             * D. Creating Tools & Systems: The Path to Improvement
+            * Mindset: We are a culture of continuous improvement. Every problem is an opportunity to build a better system. We don't just solve a problem once; we create a process to prevent it from ever happening again.
+            * The Thought Process for Innovation (Root Cause Analysis):
+This is how we turn a mistake into a stronger SOP.
+               * Identify the Problem (The Symptom): State the specific issue that occurred.
+               * Example: "Peter created a new, separate DocuSketch tour for a second unit at the same property, which caused confusion and extra work."
+               *                * Ask "Why?" to Find the Root Cause: Why did the mistake happen?
+               * Initial Answer: "Because he didn't know he was supposed to add it as a new zone."
+               * Deeper Why: "Why didn't he know?"
+               * Root Cause: "Because the instruction was given verbally to Wendy, who passed it to Peter. It was not included in his official, written route sheet for the day."
+               *                * Develop a Systemic Solution: How do we prevent this root cause from recurring?
+               * The Solution: "Update the official SOP for creating daily routes. Add a mandatory new section titled 'Special Instructions (DocuSketch, Photos, etc.)'. This ensures any non-standard request is documented in writing and given directly to the technician."
+               *                *                * Your Role in Improvement:
+               * Every team member is expected to think this way. When you encounter a frustration or a recurring error, don't just fix it for today.
+               * Document the issue.
+               * Think about the root cause.
+               * Propose a systemic solution (e.g., a new checklist, a modified template, an updated SOP) and bring it to the WIP meeting. This is a core part of your job and how we collectively get better.
+               * Of course. Here is the sixth and final section of the playbook, "Uploading and Verifying Job Photos," rebuilt with an exhaustive level of detail, synthesizing all relevant procedures, strategies, and pro-tips from your provided materials.
+________________
+
+
+The Ultimate Operational Playbook: Section 6
+6. Uploading and Verifying Job Photos
+Core Principle: Photos are our most powerful form of evidence. They are the undeniable, objective proof that justifies our scope of work, validates our billing, and protects us in disputes. Every photo must be treated as a piece of legal documentation that could one day be presented to an auditor or adjuster. A job file with weak, disorganized, or missing photos is a significant financial and operational risk.
+________________
+
+
+A. The Mindset: Think Like an Auditor
+               * Every Photo Tells a Story: Your job is to ensure that the collection of photos for a project tells a complete, clear, and compelling story from start to finish. If a stranger (an auditor) can look at the photos and understand exactly what happened, you have succeeded.
+               * A Photo for Every Line Item: For every significant charge on our estimate, there should be a corresponding photo that proves the work was necessary and was completed. If we bill for it, we must have a picture of it.
+               * Clarity is King: A blurry, poorly lit, or poorly framed photo is as useless as no photo at all. We must hold our field teams accountable for providing high-quality visual evidence.
+B. The Daily Photo Workflow: A System for Accuracy
+This is a daily, disciplined process to ensure photos are managed correctly from the moment they are taken.
+               1. Download from SiteCam (Abby's Role):
+               * Frequency: This is a daily task. All photos from the previous day's site visits must be downloaded from SiteCam every morning.
+               * Process: Log in to SiteCam, navigate to the relevant job files, and download all new images.
+               2.                3. Label the Photos (Adiel's Role):
+               * Purpose: Unlabeled photos are a disorganized mess. Proper labeling is essential for quick retrieval and professional presentation.
+               * The Naming Convention: All photos should follow a consistent naming convention. While the exact format can be refined, a best practice is:
+Date_ClientLastName_Room_Description
+                  * 2024-08-15_Smith_Kitchen_Water-Damage-Under-Sink.jpg
+                  * 2024-08-16_Smith_Living-Room_Containment-Barrier-Setup.jpg
+                  *                   * Insight: Labeling is not just an administrative task. It forces a review of each photo, which can help identify critical details that may have been missed in the initial scope notes.
+                  4.                   5. Organize and File in Google Drive (Abby's Role):
+                  * Action: The newly labeled photos are moved from a download folder into the correct, permanent Google Drive folder for that specific job.
+                  * Folder Structure: We use a standardized folder structure for consistency. This often includes subfolders like:
+                  * Initial Inspection Photos
+                  * In-Progress Photos
+                  * Post-Mitigation Photos
+                  * For Adjuster (CRITICAL FOLDER)
+                  *                   6.                   7. Create the "For Adjuster" Folder:
+                  * Purpose: The adjuster does not have time to sift through hundreds of photos. This folder is a curated collection of the most important images that tell the story and justify our bill.
+                  * What Goes in This Folder:
+                  * The "Why": Photos clearly showing the source of the loss.
+                  * The Scope: Wide-angle shots of every affected room.
+                  * The Justification: The "money shots." Clear, undeniable photos of the most significant damage that justifies our most expensive line items (e.g., a clear photo showing two layers of drywall, a picture of extensive mold growth behind a cabinet).
+                  * The Proof: "Before" and "After" photos for all major work areas.
+                  * The Compliance: Photos of our equipment on-site with readings, and pictures of our containment setups.
+                  *                   * Insight: Creating a well-organized "For Adjuster" folder dramatically speeds up estimate approval time. It shows we are professional and makes the adjuster's job easier, which builds goodwill.
+                  8. C. The Photo Verification Checklist: What Makes a "Good" Photo?
+This is the quality control checklist to be used when reviewing all incoming photos.
+                  * [ ] Is there a photo of the front of the structure?
+                  * Why it's critical: Most insurance carriers require this as a standard part of the job file to verify the correct property.
+                  *                   * [ ] Are there clear "Before," "In-Progress," and "After" photos for each area?
+                  * "Before": Captures the initial state of the damage.
+                  * "In-Progress": Shows our team and equipment at work, proving we did what we said we did.
+                  * "After": Shows the final, clean, and mitigated state of the area.
+                  *                   * [ ] Do the photos visually support the scope notes and the estimate?
+                  * The Rule: If the scope notes say, "Removed double-layer drywall," there must be a photo clearly showing the two layers.
+                  * The Rule: If we bill for "content manipulation" of a heavy item, a photo showing the item moved away from the work area is excellent supporting evidence.
+                  *                   * [ ] Are the photos technically sound?
+                  * In Focus: Is the image sharp and clear?
+                  * Well-Lit: Can you see the details, or is it too dark?
+                  * Framed Correctly: Is the photo a close-up when it needs to show detail, and a wide shot when it needs to show context?
+                  *                   * [ ] Are there photos of non-visible areas?
+                  * Insight: When technicians open up a wall or ceiling, they must be trained to take photos of what's inside (e.g., wet insulation, mold on framing). These "discovery" photos are often the justification for supplemental charges.
+                  * D. Escalating Photo-Related Issues
+When photos are missing, blurry, or inadequate, we cannot simply ignore it. The issue must be escalated immediately to protect the project's profitability.
+                  * The Process:
+                  1. Identify the Gap: During your daily review, you notice a critical photo is missing (e.g., no "after" shot for the master bathroom, no photo of the insulation type).
+                  2. Immediate Communication:
+                  * To the Production Manager (Mona): Send a message: "Hi Mona, reviewing photos for the Smith job. The technicians did demolition in the master bath yesterday, but there are no post-demo photos in SiteCam. Can you please have them take and upload these on their return visit today? We need them to justify the bill."
+                  * To the Technician (if appropriate): A direct but professional message: "Hi Peter, I'm reviewing your photos from the Smith job. I see the 'before' shots of the kitchen, but I need a clear picture of the insulation after you opened the wall. Can you please make sure to get that for the file? Thanks!"
+                  3.                   4. Document the Request: Make a note in the ClickUp file that the photos were requested on [Date]. This creates a record of the follow-up.
+                  * By adhering to this rigorous process, we transform our photo management from a simple administrative task into a strategic function that directly supports our financial success and operational excellence.
+
+
+
+1. General Phone Call Handling SOPs & Best Practices
+		Always answer promptly and use a standardized greeting:
+		“Thank you for calling SERVPRO, this is [Your Name]. How may I assist you today?”
+		Document all calls thoroughly in the system and inform callers that notes are shared with the team (never say calls are recorded).
+		 
+		 Phone Call Handling Best Practices and Notes
+		Be empathetic and clear: Acknowledge stress, explain next steps, and clarify that authorizations for inspection do not obligate the customer to full remediation.
+		 
+		 Phone Call Handling 101
+		For insurance/adjuster calls: Always provide accurate, relevant information, and never speculate or provide unauthorized details. Confirm claim numbers, adjuster contacts, and document all communications.
+		 
+		 FAQs Phone Call FAQ's - 2025 Phone Call Questions and Answers - FAQ for Phone Calls
+
+
+
+2. Intake & Insurance Call Scripts
+		Water/Mold/Fire Intake Script:
+		“Thank you for calling SERVPRO. This is [Your Name]. How may I assist you today?”
+		“I understand this is a stressful situation, but you’ve taken the right step by calling us. Our team is here to help. To provide you with the most effective assistance, I need to ask a few important questions. Is that alright?”
+		 2024 Active - Intake Script Water and Mold Damage  |  Intake Call Scripts
+		Insurance Questions to Ask:
+		“Have you filed an insurance claim for this damage, or do you plan to? If yes, do you have the claim number available?”
+		“Who is your insurance carrier? Do you have an adjuster assigned?”
+		“Would you like us to help you with the insurance process?”
+		Fire/Wildfire Intake Script:
+		“Hi, this is [Your Name] from SERVPRO. We received information from your insurance company that you may have some fire, ash, or smoke damage at your property. If you still need assistance, please feel free to give us a call back, as our office is happy to help.”
+		 Wildfire Script and FAQs
+
+
+
+3. What to Say/Not to Say (Do’s & Don’ts)
+		OK to Say:
+		“Are you looking for us to start the work right away or just inspect and provide an estimate?”
+		“We would need paperwork signed and a credit card deposit of $100. The inspection fee is usually between $300-500, but is waived if you hire us for the full project.”
+		“It is okay to provide customers with the name of the adjuster and last communication with them.”
+		NOT OK to Say:
+		Never provide specific estimate amounts or private information not belonging to the caller.
+		Do not give pricing or estimate costs unless authorized.
+		Do not say that signing paperwork obligates the customer to full remediation—clarify it is only for authorized services.
+		Never say “it’s up to you” regarding insurance—provide clear, factual guidance instead.
+		 
+		 Phone Call Notes and Information - Dos and Don'ts for Phone Calls - Things That Are OK to Say to Customers on the Phone vs. NOT OK to Say – Proper Phone Etiquette for Customer Service Calls – Guidelines for Speaking with Customers on the Phone – Effective Communication Strategies for Professional Phone Conversations
+
+
+
+4. Insurance/Adjuster Call Best Practices
+		Always confirm claim number, adjuster name, and contact info.
+		If adjuster requests documentation:
+		“I will send all requested photos and documentation directly to you and the customer.”
+		If asked about scope of work or estimate:
+		“The scope of work includes assessing what needs to be done based on our findings. We will provide a detailed estimate for your review.”
+		If insurance approval is pending:
+		“We cannot proceed with demolition or repairs until we have written approval from your adjuster.”
+		If customer is frustrated with insurance:
+		“We will continue to support you and provide all documentation needed. If coverage is denied, we can recommend a public adjuster.”
+
+
+
+5. Sample Questions to Ask on Calls
+		“What is the address of the property and any unit numbers?”
+		“Is the number you are calling from the best number to reach you at?”
+		“When did the damage occur?”
+		“Has the water stopped entering the home—has the leak been resolved?”
+		“Is there any standing water that needs to be extracted?”
+		“What rooms or areas of the home are affected?”
+		“Have you already filed an insurance claim?”
+		“Are you looking for us to visit the project immediately to start the work or are you just wanting a quote or estimate?”
+		“How did you find the number for our specific SERVPRO location?”
+
+
+
+6. Follow-Up and Documentation
+		After sending an estimate:
+		Call the next day to confirm receipt and answer questions.
+		Follow up with an email and, if needed, a text.
+		Document all actions and next steps in the system.
+		 
+		 Estimates, Following up on Estimates - best practices and how to handle certain situations - process for following up with a customer after an estimate has been sent - estimate follow up process 
+		For insurance jobs:
+		Always obtain written coverage confirmation and keep all parties updated on status changes.
+		Notify the adjuster of scheduled visits and document all communications.
+
+
+
+7. Special Notes for Adjuster/Insurance Calls
+		Never speculate about coverage or claim outcomes.
+		Always use precise, factual language:
+		“The plumber’s report specifies a ‘burst angle stop,’ which aligns with the claim narrative.”
+		“We are awaiting written approval before proceeding with floor removal.”
+		If asked about prior damage or long-term issues:
+		“We have not communicated anything to jeopardize coverage; our findings are based on current inspection and documentation.”
+
+
+
+8. Training and Quality Assurance
+		Review call logs and transcripts for accuracy and completeness.
+		Practice mock calls and review scripts regularly.
+		Address common mistakes:
+		Not answering questions directly.
+		Providing irrelevant or inaccurate information.
+		Failing to explain inspection or insurance processes clearly.
+		 
+		 Call Review Trainings 
+
+
+
+9. Real-World Examples & Transcripts
+		     You Jul 9   310-652-0960 - 07-09-2025 9:06AM PST - Miriam requests SERVPRO to retrieve fans from the duplex, inform the insurance adjuster about increased electricity bills, and standby for contractor updates on mold cleaning needs.   Miriam contacted SERVPRO to confirm fan retrieval from the duplex between 9:30-10 AM and to discuss next steps regarding the insurance claim. Carol was notified of the visit, and Miriam was advised she could send the elevated electric bill, resulting from two weeks of machine use, to the insurance adjuster to secure reimbursement. She also discussed contractor coordination, specifically confirming replacement of the old, though not badly damaged, subfloor and stated that any mold found during repairs could be cleaned by SERVPRO if needed. The decision about removing the bathtub was left to the contractor. For updates on the floor or mold, SERVPRO was instructed to await contractor communications. Follow-up actions include fan retrieval, submission of the electricity usage difference to the adjuster, and further assessment based on contractor input.   Yes, this is Miriam. Hi Miriam. Hi. I wanted to know, are you going to go to the duplex and collect the fans today? We're on our way there. We're going to be there. I already called Carol and told her we're going to be there between 9.30 and 10. Yes. Okay. All right. Very good. Okay, sweetheart. Okay. Thank you so much. No problem. Do you hear anything from the adjuster? And I already explained to Carol that if the electric bill went up higher because of all the machines running for the last two weeks, all she has to do is give you the bill and you give it to the insurance adjuster and say, look at the difference from last month to this month and they pay you the difference. Okay. Okay. All right. And let us know if they call you about the floor. Otherwise, you just have your contractor do what he needs to do. And if he finds any mold or anything that needs to be cleaned by me, I can always come back. And also, I wanted to ask you the sub floor. Can we just replace it? Yes. Yes. You should replace the sub floor. Definitely. It's too old. Okay. Okay. But it doesn't mean it's bad. I saw pictures. It's not bad. It's just too old. Okay. All right. And make it look good. You know, that's all right. Right. So, that doesn't have anything to do with the tub that's there. I don't have to remove the tub. I'm sorry. What was the question? The bathtub that's there. Yeah, you don't have that. I don't know. I don't know. You can ask the contractor. That's for the contractor to decide. Oh, I see. Okay. Okay. All right. Thank you. You're welcome. Anytime. Thank you. Bye. Bye. Bye.   https://app.clickup.com/t/ https://app.clickup.com/t/868egby7t   Sent by Zapier        Show more  Comment from DONE REVIEWING   Current status: done reviewing  310-652-0960 - 07-09-2025 9:06AM PST - Miriam requests SERVPRO to retrieve fans from the duplex, inform the insurance adjuster about increased electricity bills, and standby for contractor updates on mold cleaning needs.  View message
+		     You Jun 30   (571) 276-4344 - 06-30-2025 11:24AM - Caller requests the painting estimate from SERVPRO to submit to the insurance adjuster; once approved and deposit confirmed, scheduling work to begin.   Call regarding painting project status; caller inquires about painting estimate from SERVPRO to submit to insurance adjuster for approval. Caller has not yet received the estimate and awaits confirmation before paying a deposit to initiate work. SERVPRO is preparing the estimate through their office and will send it to the adjuster. Once approved, payment process to be determined, followed by scheduling the painting work. Contact number involved: (571) 276-4344; call dated 06-30-2025 at 11:24 AM.   Hi, how are you? I'm good to her. I wanted to just ask you anything that you're ready to do the painting and I don't know what the status is, but we're waiting. You're waiting to get paid from waiting to send the estimate to the insurance company. Correct. Well, like I said, I don't know if it's approved. I mean, I do have yeah, I'm just waiting for us approved, but then they could send money after that. So I just, I need to know. Do I have an estimate? I don't think I got it. I see. I see. So, if he does get approved, you're willing to pay him a deposit to make him get started and then you get money from the insurance. Yeah, but I need to know what his estimate is. I haven't got the estimate of how much it's gonna cost to pay me. You got it. So I'll I'm working on that through the office through my office. Okay. We'll send it to the adjuster as soon as we get to see that. The adjuster says he's approving it. He might, you know, we'll see which way he pays. He pays us. So he pays you. We'll figure it out. Okay, sounds good. Okay, sweetheart. So we're on board for that. Thank you so much. Yeah. All right. Thank you. Bye. Bye. Bye. Bye. Bye.   https://app.clickup.com/t/868c8h34m https://app.clickup.com/t/   Sent by Zapier        Show more  Comment from DONE REVIEWING   Current status: done reviewing  (571) 276-4344 - 06-30-2025 11:24AM - Caller requests the painting estimate from SERVPRO to submit to the insurance adjuster; once approved and deposit confirmed, scheduling work to begin.  View message
+		     You Jun 17   714-309-6879 - 06-17-2025 12:06PM - Mona Jones from SERVPRO of Park La Brea to call Sandra Burgess at Mercury Insurance regarding claim CAHO 0025-3149 for Kaylin Gillies to clarify outstanding bill status and payment timing.   Call from Mona Jones, SERVPRO of Park La Brea, to Sandra Burgess at Mercury Insurance about claim CAHO 0025-3149 for customer Kaylin Gillies, located at 358 Figueroa Drive, Altadena, CA 91001. Mona requested a callback at 323-741-2120 to confirm if there is any outstanding bill and inquire about payment timing. The call was made on 06-17-2025 at 12:06 PM; the key action is for Sandra to return the call to address billing and payment status.   Thank you for calling Mercury Insurance. You've reached the voice mail for Sandra Burgess. I'm sorry I've missed you. However, your call is important. Please leave a message including your name, claim number, and phone number and I can return your call as soon as possible. Thank you so much. Bye-bye. Hi, my name is Mona Jones with Surf Pro of Park La Brea calling regarding our customer Kaylin Gillies at 358 Figueroa Drive, Altadena, 91001. Your claim number CAHO 0025-3149. Can you please call me back, Sandra, at 323-741-2120. I'd like to see if there's an outstanding bill, how soon we can get our payment. I appreciate a phone call. 323-741-2120. Have a good day.   https://app.clickup.com/t/ https://app.clickup.com/t/   Sent by Zapier        Show more  Comment from DONE REVIEWING   Current status: done reviewing  714-309-6879 - 06-17-2025 12:06PM - Mona Jones from SERVPRO of Park La Brea to call Sandra Burgess at Mercury Insurance regarding claim CAHO 0025-3149 for Kaylin Gillies to clarify outstanding bill status and payment timing.  View message
+
+
+
+10. Full SOPs, Scripts, and FAQs
+		 Phone Call Handling 101
+		 FAQs Phone Call FAQ's - 2025 Phone Call Questions and Answers - FAQ for Phone Calls
+		 2024 Active - Intake Script Water and Mold Damage 
+		 Intake Call Scripts
+		 Phone Call Notes and Information - Dos and Don'ts for Phone Calls - Things That Are OK to Say to Customers on the Phone vs. NOT OK to Say – Proper Phone Etiquette for Customer Service Calls – Guidelines for Speaking with Customers on the Phone – Effective Communication Strategies for Professional Phone Conversations
+		 Wildfire Script and FAQs
+		 Call Review Trainings 
+		 Estimates, Following up on Estimates - best practices and how to handle certain situations - process for following up with a customer after an estimate has been sent - estimate follow up process
